@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "acx_base"
 SWEP.Spawnable = true
 
-SWEP.PrintName = "PP7"
+SWEP.PrintName = "PP7" -- PPK
 SWEP.Category = "ACXION - Goldeneye: Source"
 
 SWEP.Model = "models/weapons/pp7/w_pp7.mdl"

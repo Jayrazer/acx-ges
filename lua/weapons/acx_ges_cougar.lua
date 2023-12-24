@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "acx_base"
 SWEP.Spawnable = true
 
-SWEP.PrintName = "Cougar Magnum"
+SWEP.PrintName = "Cougar Magnum" -- Ruger Blackhawk
 SWEP.Category = "ACXION - Goldeneye: Source"
 
 SWEP.Model = "models/weapons/cougar_magnum/w_cougar_magnum.mdl"

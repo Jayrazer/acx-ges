@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "acx_base"
 SWEP.Spawnable = true
 
-SWEP.PrintName = "RC-P90"
+SWEP.PrintName = "RC-P90" -- P90
 SWEP.Category = "ACXION - Goldeneye: Source"
 
 SWEP.Model = "models/weapons/rcp90/w_rcp90.mdl"

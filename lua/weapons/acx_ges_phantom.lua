@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "acx_base"
 SWEP.Spawnable = true
 
-SWEP.PrintName = "Phantom"
+SWEP.PrintName = "Phantom" -- Spectre M4
 SWEP.Category = "ACXION - Goldeneye: Source"
 
 SWEP.Model = "models/weapons/phantom/w_phantom.mdl"

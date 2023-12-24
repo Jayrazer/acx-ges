@@ -3,26 +3,26 @@ AddCSLuaFile()
 SWEP.Base = "acx_base"
 SWEP.Spawnable = true
 
-SWEP.PrintName = "Golden Gun" -- the freaking golden gun
+SWEP.PrintName = "Moonraker Laser" -- the freaking lazar gun
 SWEP.Category = "ACXION - Goldeneye: Source"
 
-SWEP.Model = "models/weapons/goldengun/w_goldengun.mdl"
+SWEP.Model = "models/weapons/moonraker/w_moonraker.mdl"
 
-SWEP.ModelOffsetView = Vector(4.5, 17, -5)
-SWEP.ModelAngleView = Angle(-90, 180, 90)
+SWEP.ModelOffsetView = Vector(5, 16, -5)
+SWEP.ModelAngleView = Angle(0, 180, 180)
 
 SWEP.ModelOffsetWorld = Vector(0, 0, 0)
 SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 40
+SWEP.Damage = 24
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 2
 SWEP.ArmorPiercing = 0.25
-SWEP.Spread = 0.001
-SWEP.Recoil = 2
-SWEP.RateOfFire = 300
+SWEP.Spread = 0.015
+SWEP.Recoil = 0.5
+SWEP.RateOfFire = 250
 
 SWEP.Firemode = "semi"
 -- auto
@@ -33,17 +33,17 @@ SWEP.Firemode = "semi"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.9
-SWEP.ReloadDifficultyMult = 0.9
+SWEP.ReloadTime = 1.75
+SWEP.ReloadDifficultyMult = 1
 SWEP.ShotgunReload = false
 
 SWEP.AutoAimAngle = math.cos(math.rad(60))
 SWEP.AutoAimRange = 2500
 SWEP.AutoAimSpeed = 60
 
-SWEP.Primary.Ammo = "357"
-SWEP.Primary.ClipSize = 1
-SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 5
+SWEP.Primary.Ammo = "ar2"
+SWEP.Primary.ClipSize = 100
+SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 3
 SWEP.FastReloadBonus = 0
 
 SWEP.Magnification = 1.25
@@ -55,7 +55,7 @@ SWEP.AimOffset = Vector(0, 0, 0)
 SWEP.AimAngle = Angle(0, 0, 0)
 
 SWEP.RecoilOffset = Vector(0, -4, 0)
-SWEP.RecoilAngle = Angle(-40, 0, 0)
+SWEP.RecoilAngle = Angle(0, 0, 0)
 
 ----------------- Gestures
 
@@ -70,18 +70,18 @@ SWEP.HolsterTime = 0.2
 
 ----------------- Effects
 
-SWEP.MuzzleTexture = "effects/combinemuzzle1"
+SWEP.MuzzleTexture = "effects/gunshipmuzzle"
 
-SWEP.MuzzleOffset = Vector(1, 0, 0)
-SWEP.MuzzleAngle = Angle(0, 0, 0)
+SWEP.MuzzleOffset = Vector(0, -11, -2)
+SWEP.MuzzleAngle = Angle(180, 0, 0)
 SWEP.MuzzleScale = 0.5
 
 ----------------- Sounds
 
-SWEP.ShootSound = "weapons/goldengun/golden_gun_fire1.wav"
+SWEP.ShootSound = "weapons/moonraker/moonraker_fire3.wav"
 SWEP.ShootVolume = 110
 
 SWEP.DryFireSound = "weapons/common/dryfire.wav"
 
-SWEP.ReloadStartSound = "weapons/common/gg_reload_beta.wav"
+SWEP.ReloadStartSound = "weapons/common/gg_reload1.wav"
 SWEP.ReloadFinishSound = "weapons/common/gg_reload.wav"

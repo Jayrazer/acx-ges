@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "acx_base"
 SWEP.Spawnable = true
 
-SWEP.PrintName = "US AR33"
+SWEP.PrintName = "US AR33" -- M16
 SWEP.Category = "ACXION - Goldeneye: Source"
 
 SWEP.Model = "models/weapons/ar33/w_ar33.mdl"

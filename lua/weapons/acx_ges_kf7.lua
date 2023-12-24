@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "acx_base"
 SWEP.Spawnable = true
 
-SWEP.PrintName = "KF7 Soviet"
+SWEP.PrintName = "KF7 Soviet" -- AK 47
 SWEP.Category = "ACXION - Goldeneye: Source"
 
 SWEP.Model = "models/weapons/kf7/w_kf7.mdl"

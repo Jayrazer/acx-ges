@@ -1,14 +1,14 @@
 AddCSLuaFile()
 
 SWEP.Base = "acx_base"
-SWEP.Spawnable = true
+SWEP.Spawnable = false
 
-SWEP.PrintName = "D5K Deutsche" -- MP5K
+SWEP.PrintName = "Grenade Launcher" -- It's an AK mangled into an pseudo-M32 MGL? Huh?
 SWEP.Category = "ACXION - Goldeneye: Source"
 
-SWEP.Model = "models/weapons/d5k/w_d5k.mdl"
+SWEP.Model = "models/weapons/gl/w_gl.mdl"
 
-SWEP.ModelOffsetView = Vector(4, 15, -6)
+SWEP.ModelOffsetView = Vector(5, 20, -4)
 SWEP.ModelAngleView = Angle(-90, 180, 90)
 
 SWEP.ModelOffsetWorld = Vector(0, 0, 0)
@@ -16,15 +16,15 @@ SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 11
-SWEP.Num = 1
+SWEP.Damage = 15
+SWEP.Num = 8
 SWEP.HeadshotMultiplier = 1
-SWEP.ArmorPiercing = 0.25
-SWEP.Spread = 0.025
-SWEP.Recoil = 0.5
-SWEP.RateOfFire = 625
+SWEP.ArmorPiercing = 0
+SWEP.Spread = 0.04
+SWEP.Recoil = 1
+SWEP.RateOfFire = 75
 
-SWEP.Firemode = "auto"
+SWEP.Firemode = "semi"
 -- auto
 -- semi
 -- semi_falling
@@ -33,20 +33,20 @@ SWEP.Firemode = "auto"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.65
-SWEP.ReloadDifficultyMult = 1
-SWEP.ShotgunReload = false
+SWEP.ReloadTime = 0.75
+SWEP.ReloadDifficultyMult = 0.5
+SWEP.ShotgunReload = true
 
 SWEP.AutoAimAngle = math.cos(math.rad(30))
 SWEP.AutoAimRange = 3500
 SWEP.AutoAimSpeed = 60
 
-SWEP.Primary.Ammo = "smg1"
-SWEP.Primary.ClipSize = 30
+SWEP.Primary.Ammo = "smg1_grenade"
+SWEP.Primary.ClipSize = 6
 SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 3
-SWEP.FastReloadBonus = 10
+SWEP.FastReloadBonus = 0
 
-SWEP.Magnification = 1.25
+SWEP.Magnification = 1.1
 
 SWEP.HasScope = false
 SWEP.ScopeOverlay = nil
@@ -54,7 +54,7 @@ SWEP.ScopeOverlay = nil
 SWEP.AimOffset = Vector(0, 0, 0)
 SWEP.AimAngle = Angle(0, 0, 0)
 
-SWEP.RecoilOffset = Vector(0, -2, 0)
+SWEP.RecoilOffset = Vector(0, -4, 0)
 SWEP.RecoilAngle = Angle(0, 0, 0)
 
 ----------------- Gestures
@@ -70,18 +70,19 @@ SWEP.HolsterTime = 0.4
 
 ----------------- Effects
 
-SWEP.MuzzleTexture = "effects/combinemuzzle2"
+SWEP.MuzzleTexture = "effects/combinemuzzle1"
 
-SWEP.MuzzleOffset = Vector(0, -2, 0)
+SWEP.MuzzleOffset = Vector(5, 0, 0)
 SWEP.MuzzleAngle = Angle(0, 0, 0)
-SWEP.MuzzleScale = 0.5
+SWEP.MuzzleScale = 1
 
 ----------------- Sounds
 
-SWEP.ShootSound = "weapons/d5k/d5k_fire1.wav"
+SWEP.ShootSound = "weapons/glauncher/grenadelauncher_fire1.wav"
 SWEP.ShootVolume = 110
+SWEP.ShootPitch = 100
 
 SWEP.DryFireSound = "weapons/common/dryfire.wav"
 
-SWEP.ReloadStartSound = "weapons/common/gg_reload_beta.wav"
-SWEP.ReloadFinishSound = "weapons/common/automatic_reload.wav"
+SWEP.ReloadStartSound = "weapons/common/grenadelauncher_reload.wav"
+SWEP.ReloadFinishSound = "weapons/glauncher/grenadelauncher_cylinder.wav"

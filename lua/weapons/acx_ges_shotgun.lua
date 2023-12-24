@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "acx_base"
 SWEP.Spawnable = true
 
-SWEP.PrintName = "Pump Shotgun"
+SWEP.PrintName = "Shotgun" -- Remington 870
 SWEP.Category = "ACXION - Goldeneye: Source"
 
 SWEP.Model = "models/weapons/shotgun/w_shotgun.mdl"
@@ -22,7 +22,7 @@ SWEP.HeadshotMultiplier = 1
 SWEP.ArmorPiercing = 0
 SWEP.Spread = 0.04
 SWEP.Recoil = 1
-SWEP.RateOfFire = 100
+SWEP.RateOfFire = 95
 
 SWEP.Firemode = "semi"
 -- auto

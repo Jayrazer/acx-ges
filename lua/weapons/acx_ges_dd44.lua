@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "acx_base"
 SWEP.Spawnable = true
 
-SWEP.PrintName = "DD44 Dostovei"
+SWEP.PrintName = "DD44 Dostovei" -- TT-33
 SWEP.Category = "ACXION - Goldeneye: Source"
 
 SWEP.Model = "models/weapons/dd44/w_dd44.mdl"

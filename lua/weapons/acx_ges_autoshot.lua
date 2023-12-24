@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "acx_base"
 SWEP.Spawnable = true
 
-SWEP.PrintName = "Auto Shotgun"
+SWEP.PrintName = "Auto Shotgun" -- Weird mishapen SPAS-12 with wood furniture
 SWEP.Category = "ACXION - Goldeneye: Source"
 
 SWEP.Model = "models/weapons/autosg/w_autosg.mdl"
@@ -33,7 +33,7 @@ SWEP.Firemode = "auto"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.4
+SWEP.ReloadTime = 0.5
 SWEP.ReloadDifficultyMult = 0.5
 SWEP.ShotgunReload = true
 

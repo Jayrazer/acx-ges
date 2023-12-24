@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "acx_base"
 SWEP.Spawnable = true
 
-SWEP.PrintName = "ZMG 9mm"
+SWEP.PrintName = "ZMG 9mm" -- Micro Uzi
 SWEP.Category = "ACXION - Goldeneye: Source"
 
 SWEP.Model = "models/weapons/zmg/w_zmg.mdl"

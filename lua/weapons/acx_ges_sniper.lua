@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "acx_base"
 SWEP.Spawnable = true
 
-SWEP.PrintName = "Sniper Rifle"
+SWEP.PrintName = "Sniper Rifle" -- Weird AK-SKS-SVD...thing...
 SWEP.Category = "ACXION - Goldeneye: Source"
 
 SWEP.Model = "models/weapons/sniperrifle/w_sniperrifle.mdl"

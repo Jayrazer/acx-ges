@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "acx_base"
 SWEP.Spawnable = true
 
-SWEP.PrintName = "D5K Silenced"
+SWEP.PrintName = "D5K Silenced" -- MP5K
 SWEP.Category = "ACXION - Goldeneye: Source"
 
 SWEP.Model = "models/weapons/d5k/w_d5k_silenced.mdl"
