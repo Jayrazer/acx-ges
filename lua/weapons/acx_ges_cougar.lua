@@ -5,6 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.PrintName = "Cougar Magnum" -- Ruger Blackhawk
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 1
 
 SWEP.Model = "models/weapons/cougar_magnum/w_cougar_magnum.mdl"
 
@@ -16,10 +17,10 @@ SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 40
+SWEP.Damage = 50
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 2
-SWEP.ArmorPiercing = 0.25
+SWEP.ArmorPiercing = 0.35
 SWEP.Spread = 0.001
 SWEP.Recoil = 2
 SWEP.RateOfFire = 100
@@ -38,8 +39,8 @@ SWEP.ReloadDifficultyMult = 0.3
 SWEP.ShotgunReload = true
 
 SWEP.AutoAimAngle = math.cos(math.rad(60))
-SWEP.AutoAimRange = 2500
-SWEP.AutoAimSpeed = 60
+SWEP.AutoAimRange = 950
+SWEP.AutoAimSpeed = 50
 
 SWEP.Primary.Ammo = "357"
 SWEP.Primary.ClipSize = 6
@@ -83,5 +84,5 @@ SWEP.ShootVolume = 110
 
 SWEP.DryFireSound = "weapons/common/dryfire.wav"
 
-SWEP.ReloadStartSound = "weapons/cmag/cmag_cylinder.wav"
-SWEP.ReloadFinishSound = "weapons/common/gg_reload1.wav"
+SWEP.ReloadStartSound = "weapons/common/gg_reload1.wav"
+SWEP.ReloadFinishSound = "weapons/cmag/cmag_cylinder.wav"

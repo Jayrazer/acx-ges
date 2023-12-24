@@ -5,9 +5,9 @@ SWEP.Spawnable = true
 
 SWEP.PrintName = "KF7 Soviet" -- AK 47
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 2
 
 SWEP.Model = "models/weapons/kf7/w_kf7.mdl"
-SWEP.Bodygroups = "000"
 
 SWEP.ModelOffsetView = Vector(4.5, 19, -5)
 SWEP.ModelAngleView = Angle(-90, 0, 90)
@@ -17,7 +17,7 @@ SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 24
+SWEP.Damage = 22
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1.5
 SWEP.ArmorPiercing = 0.5
@@ -39,8 +39,8 @@ SWEP.ReloadDifficultyMult = 1
 SWEP.ShotgunReload = false
 
 SWEP.AutoAimAngle = math.cos(math.rad(20))
-SWEP.AutoAimRange = 5000
-SWEP.AutoAimSpeed = 20
+SWEP.AutoAimRange = 1150
+SWEP.AutoAimSpeed = 30
 
 SWEP.Primary.Ammo = "ar2"
 SWEP.Primary.ClipSize = 30

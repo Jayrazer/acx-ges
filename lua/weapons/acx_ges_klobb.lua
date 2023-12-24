@@ -5,6 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.PrintName = "Klobb" -- Skorpion
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 1
 
 SWEP.Model = "models/weapons/klobb/w_klobb.mdl"
 
@@ -16,12 +17,12 @@ SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 11
+SWEP.Damage = 10
 SWEP.Num = 1
-SWEP.HeadshotMultiplier = 1
-SWEP.ArmorPiercing = 0.25
+SWEP.HeadshotMultiplier = 1.25
+SWEP.ArmorPiercing = 0.15
 SWEP.Spread = 0.025
-SWEP.Recoil = 0.5
+SWEP.Recoil = 0.25
 SWEP.RateOfFire = 650
 
 SWEP.Firemode = "auto"
@@ -34,12 +35,12 @@ SWEP.Firemode = "auto"
 -- burst_3, burst_2
 
 SWEP.ReloadTime = 0.5
-SWEP.ReloadDifficultyMult = 1
+SWEP.ReloadDifficultyMult = 0.75
 SWEP.ShotgunReload = false
 
 SWEP.AutoAimAngle = math.cos(math.rad(30))
-SWEP.AutoAimRange = 3500
-SWEP.AutoAimSpeed = 60
+SWEP.AutoAimRange = 600
+SWEP.AutoAimSpeed = 40
 
 SWEP.Primary.Ammo = "smg1"
 SWEP.Primary.ClipSize = 20

@@ -5,6 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.PrintName = "Phantom" -- Spectre M4
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 2
 
 SWEP.Model = "models/weapons/phantom/w_phantom.mdl"
 
@@ -16,13 +17,13 @@ SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 11
+SWEP.Damage = 16
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1
 SWEP.ArmorPiercing = 0.25
 SWEP.Spread = 0.025
 SWEP.Recoil = 0.5
-SWEP.RateOfFire = 550
+SWEP.RateOfFire = 575
 
 SWEP.Firemode = "auto"
 -- auto
@@ -34,12 +35,12 @@ SWEP.Firemode = "auto"
 -- burst_3, burst_2
 
 SWEP.ReloadTime = 0.75
-SWEP.ReloadDifficultyMult = 1.1
+SWEP.ReloadDifficultyMult = 1
 SWEP.ShotgunReload = false
 
 SWEP.AutoAimAngle = math.cos(math.rad(30))
-SWEP.AutoAimRange = 3500
-SWEP.AutoAimSpeed = 60
+SWEP.AutoAimRange = 800
+SWEP.AutoAimSpeed = 30
 
 SWEP.Primary.Ammo = "smg1"
 SWEP.Primary.ClipSize = 50

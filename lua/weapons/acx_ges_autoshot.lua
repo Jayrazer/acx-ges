@@ -5,6 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.PrintName = "Auto Shotgun" -- Weird mishapen SPAS-12 with wood furniture
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 3
 
 SWEP.Model = "models/weapons/autosg/w_autosg.mdl"
 
@@ -16,15 +17,15 @@ SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 15
+SWEP.Damage = 12
 SWEP.Num = 8
 SWEP.HeadshotMultiplier = 1
 SWEP.ArmorPiercing = 0
-SWEP.Spread = 0.04
+SWEP.Spread = 0.06
 SWEP.Recoil = 1
-SWEP.RateOfFire = 125
+SWEP.RateOfFire = 130
 
-SWEP.Firemode = "auto"
+SWEP.Firemode = "semi"
 -- auto
 -- semi
 -- semi_falling
@@ -33,13 +34,13 @@ SWEP.Firemode = "auto"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.5
-SWEP.ReloadDifficultyMult = 0.5
+SWEP.ReloadTime = 0.45
+SWEP.ReloadDifficultyMult = 0.4
 SWEP.ShotgunReload = true
 
 SWEP.AutoAimAngle = math.cos(math.rad(30))
-SWEP.AutoAimRange = 3500
-SWEP.AutoAimSpeed = 60
+SWEP.AutoAimRange = 500
+SWEP.AutoAimSpeed = 40
 
 SWEP.Primary.Ammo = "buckshot"
 SWEP.Primary.ClipSize = 5

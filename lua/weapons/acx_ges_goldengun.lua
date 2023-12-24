@@ -5,6 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.PrintName = "Golden Gun" -- the freaking golden gun
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 1
 
 SWEP.Model = "models/weapons/goldengun/w_goldengun.mdl"
 
@@ -16,13 +17,13 @@ SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 40
+SWEP.Damage = 200
 SWEP.Num = 1
-SWEP.HeadshotMultiplier = 2
+SWEP.HeadshotMultiplier = 1
 SWEP.ArmorPiercing = 0.25
 SWEP.Spread = 0.001
 SWEP.Recoil = 2
-SWEP.RateOfFire = 300
+SWEP.RateOfFire = 75
 
 SWEP.Firemode = "semi"
 -- auto
@@ -33,12 +34,12 @@ SWEP.Firemode = "semi"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.9
-SWEP.ReloadDifficultyMult = 0.9
+SWEP.ReloadTime = 1
+SWEP.ReloadDifficultyMult = 1.1
 SWEP.ShotgunReload = false
 
 SWEP.AutoAimAngle = math.cos(math.rad(60))
-SWEP.AutoAimRange = 2500
+SWEP.AutoAimRange = 450
 SWEP.AutoAimSpeed = 60
 
 SWEP.Primary.Ammo = "357"

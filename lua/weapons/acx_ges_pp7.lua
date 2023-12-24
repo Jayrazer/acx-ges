@@ -16,13 +16,13 @@ SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 24
+SWEP.Damage = 18
 SWEP.Num = 1
-SWEP.HeadshotMultiplier = 2
+SWEP.HeadshotMultiplier = 3
 SWEP.ArmorPiercing = 0.25
 SWEP.Spread = 0.015
-SWEP.Recoil = 1
-SWEP.RateOfFire = 600
+SWEP.Recoil = 0.25
+SWEP.RateOfFire = 500
 
 SWEP.Firemode = "semi"
 -- auto
@@ -33,12 +33,12 @@ SWEP.Firemode = "semi"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.4
-SWEP.ReloadDifficultyMult = 0.9
+SWEP.ReloadTime = 0.45
+SWEP.ReloadDifficultyMult = 0.85
 SWEP.ShotgunReload = false
 
 SWEP.AutoAimAngle = math.cos(math.rad(60))
-SWEP.AutoAimRange = 2500
+SWEP.AutoAimRange = 500
 SWEP.AutoAimSpeed = 60
 
 SWEP.Primary.Ammo = "pistol"

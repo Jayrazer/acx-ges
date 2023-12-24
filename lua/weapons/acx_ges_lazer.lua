@@ -5,6 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.PrintName = "Moonraker Laser" -- the freaking lazar gun
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 3
 
 SWEP.Model = "models/weapons/moonraker/w_moonraker.mdl"
 
@@ -16,7 +17,7 @@ SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 24
+SWEP.Damage = 20
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 2
 SWEP.ArmorPiercing = 0.25
@@ -33,18 +34,18 @@ SWEP.Firemode = "semi"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 1.75
-SWEP.ReloadDifficultyMult = 1
+SWEP.ReloadTime = 1.5
+SWEP.ReloadDifficultyMult = 0.95
 SWEP.ShotgunReload = false
 
 SWEP.AutoAimAngle = math.cos(math.rad(60))
-SWEP.AutoAimRange = 2500
-SWEP.AutoAimSpeed = 60
+SWEP.AutoAimRange = 700
+SWEP.AutoAimSpeed = 35
 
 SWEP.Primary.Ammo = "ar2"
-SWEP.Primary.ClipSize = 100
+SWEP.Primary.ClipSize = 75
 SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 3
-SWEP.FastReloadBonus = 0
+SWEP.FastReloadBonus = 25
 
 SWEP.Magnification = 1.25
 

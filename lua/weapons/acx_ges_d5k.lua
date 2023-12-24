@@ -5,6 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.PrintName = "D5K Deutsche" -- MP5K
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 2
 
 SWEP.Model = "models/weapons/d5k/w_d5k.mdl"
 
@@ -16,13 +17,13 @@ SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 11
+SWEP.Damage = 12
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1
 SWEP.ArmorPiercing = 0.25
 SWEP.Spread = 0.025
-SWEP.Recoil = 0.5
-SWEP.RateOfFire = 625
+SWEP.Recoil = 0.4
+SWEP.RateOfFire = 600
 
 SWEP.Firemode = "auto"
 -- auto
@@ -38,8 +39,8 @@ SWEP.ReloadDifficultyMult = 1
 SWEP.ShotgunReload = false
 
 SWEP.AutoAimAngle = math.cos(math.rad(30))
-SWEP.AutoAimRange = 3500
-SWEP.AutoAimSpeed = 60
+SWEP.AutoAimRange = 1000
+SWEP.AutoAimSpeed = 35
 
 SWEP.Primary.Ammo = "smg1"
 SWEP.Primary.ClipSize = 30
