@@ -5,6 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.PrintName = "Shotgun" -- Remington 870
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 3
 
 SWEP.Model = "models/weapons/shotgun/w_shotgun.mdl"
 

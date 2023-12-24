@@ -5,6 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.PrintName = "Sniper Rifle" -- Weird AK-SKS-SVD...thing...
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 4
 
 SWEP.Model = "models/weapons/sniperrifle/w_sniperrifle.mdl"
 
@@ -33,7 +34,7 @@ SWEP.Firemode = "semi"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 1.2
+SWEP.ReloadTime = 1.1
 SWEP.ReloadDifficultyMult = 1
 SWEP.ShotgunReload = false
 

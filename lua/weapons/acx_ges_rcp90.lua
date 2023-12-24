@@ -5,6 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.PrintName = "RC-P90" -- P90
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 2
 
 SWEP.Model = "models/weapons/rcp90/w_rcp90.mdl"
 

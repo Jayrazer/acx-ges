@@ -5,6 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.PrintName = "ZMG 9mm" -- Micro Uzi
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 1
 
 SWEP.Model = "models/weapons/zmg/w_zmg.mdl"
 

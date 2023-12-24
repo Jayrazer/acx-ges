@@ -5,6 +5,7 @@ SWEP.Spawnable = true
 
 SWEP.PrintName = "PP7 Silenced" -- PPK
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 1
 
 SWEP.Model = "models/weapons/pp7/w_pp7_s.mdl"
 
