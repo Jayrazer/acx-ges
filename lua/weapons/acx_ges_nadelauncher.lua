@@ -19,8 +19,8 @@ SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
 SWEP.ProjectileEntity = "acx_proj_40mm"
 
-SWEP.Damage = 15
-SWEP.Num = 8
+SWEP.Damage = 50
+SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1
 SWEP.ArmorPiercing = 0
 SWEP.Spread = 0.04

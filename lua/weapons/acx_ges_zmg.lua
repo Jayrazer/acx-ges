@@ -9,14 +9,11 @@ SWEP.Slot = 1
 
 SWEP.Model = "models/weapons/zmg/w_zmg.mdl"
 
-SWEP.ModelOffsetView = Vector(6, 15, -8)
+SWEP.ModelOffsetView = Vector(6, 17, -8)
 SWEP.ModelAngleView = Angle(-90, 180, 90)
 
 SWEP.ModelOffsetWorld = Vector(0, 0, 0)
 SWEP.ModelAngleWorld = Angle(0, 0, 0)
-
-SWEP.HolsterOffset = Vector(-25, 0, -10)
-SWEP.HolsterAngle = Angle(90, 0, 0)
 
 ----------------- Stats
 
@@ -37,8 +34,8 @@ SWEP.Firemode = "auto"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.6
-SWEP.ReloadDifficultyMult = 1
+SWEP.ReloadTime = 0.65
+SWEP.ReloadDifficultyMult = 0.8
 SWEP.ShotgunReload = false
 
 SWEP.AutoAimAngle = math.cos(math.rad(30))
@@ -60,6 +57,9 @@ SWEP.AimAngle = Angle(0, 0, 0)
 
 SWEP.RecoilOffset = Vector(0, -2, 0)
 SWEP.RecoilAngle = Angle(0, 0, 0)
+
+SWEP.HolsterOffset = Vector(-25, 0, -10)
+SWEP.HolsterAngle = Angle(90, 0, 0)
 
 ----------------- Gestures
 
