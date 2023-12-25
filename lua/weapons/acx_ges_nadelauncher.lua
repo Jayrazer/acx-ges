@@ -1,20 +1,23 @@
 AddCSLuaFile()
 
 SWEP.Base = "acx_base"
-SWEP.Spawnable = false
+SWEP.Spawnable = true
 
 SWEP.PrintName = "Grenade Launcher" -- It's an AK mangled into an pseudo-M32 MGL? Huh?
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 4
 
 SWEP.Model = "models/weapons/gl/v_gl.mdl"
 
-SWEP.ModelOffsetView = Vector(0, 0, -0)
+SWEP.ModelOffsetView = Vector(0, -1, -0)
 SWEP.ModelAngleView = Angle(0, 0, 0)
 
 SWEP.ModelOffsetWorld = Vector(0, 0, 0)
 SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
 ----------------- Stats
+
+SWEP.ProjectileEntity = "acx_proj_40mm"
 
 SWEP.Damage = 15
 SWEP.Num = 8
@@ -33,7 +36,7 @@ SWEP.Firemode = "semi"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.75
+SWEP.ReloadTime = 0.65
 SWEP.ReloadDifficultyMult = 0.5
 SWEP.ShotgunReload = true
 

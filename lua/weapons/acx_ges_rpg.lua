@@ -1,10 +1,11 @@
 AddCSLuaFile()
 
 SWEP.Base = "acx_base"
-SWEP.Spawnable = false
+SWEP.Spawnable = true
 
 SWEP.PrintName = "Rocket Launcher" -- Vaguely RPG-7
 SWEP.Category = "ACXION - Goldeneye: Source"
+SWEP.Slot = 4
 
 SWEP.Model = "models/weapons/rocket_launcher/w_rocket_launcher.mdl"
 
@@ -14,7 +15,16 @@ SWEP.ModelAngleView = Angle(-90, 180, 90)
 SWEP.ModelOffsetWorld = Vector(0, 0, 0)
 SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
+SWEP.Bodygroups = "0000"
+
+SWEP.BulletBodygroups = {
+    [1] = {1, 1}
+}
+
+
 ----------------- Stats
+
+SWEP.ProjectileEntity = "acx_proj_rpg"
 
 SWEP.Damage = 15
 SWEP.Num = 8
@@ -33,8 +43,8 @@ SWEP.Firemode = "semi"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 1.25
-SWEP.ReloadDifficultyMult = 1.25
+SWEP.ReloadTime = 1.1
+SWEP.ReloadDifficultyMult = 1.1
 SWEP.ShotgunReload = false
 
 SWEP.AutoAimAngle = math.cos(math.rad(30))
