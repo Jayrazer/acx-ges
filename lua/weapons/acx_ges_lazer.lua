@@ -7,10 +7,10 @@ SWEP.PrintName = "Moonraker Laser" -- the freaking lazar gun
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 3
 
-SWEP.Model = "models/weapons/moonraker/w_moonraker.mdl"
+SWEP.Model = "models/weapons/moonraker/v_moonraker.mdl"
 
-SWEP.ModelOffsetView = Vector(5, 16, -5)
-SWEP.ModelAngleView = Angle(0, 180, 180)
+SWEP.ModelOffsetView = Vector(0, -1, 1)
+SWEP.ModelAngleView = Angle(0, 0, 0)
 
 SWEP.ModelOffsetWorld = Vector(0, 0, 0)
 SWEP.ModelAngleWorld = Angle(0, 0, 0)
@@ -73,8 +73,8 @@ SWEP.HolsterTime = 0.2
 
 SWEP.MuzzleTexture = "effects/gunshipmuzzle"
 
-SWEP.MuzzleOffset = Vector(0, -11, -2)
-SWEP.MuzzleAngle = Angle(180, 0, 0)
+SWEP.MuzzleOffset = Vector(4, 21, -5)
+SWEP.MuzzleAngle = Angle(0, 0, 0)
 SWEP.MuzzleScale = 0.5
 
 ----------------- Sounds

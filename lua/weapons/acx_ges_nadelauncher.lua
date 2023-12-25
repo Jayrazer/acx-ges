@@ -6,10 +6,10 @@ SWEP.Spawnable = false
 SWEP.PrintName = "Grenade Launcher" -- It's an AK mangled into an pseudo-M32 MGL? Huh?
 SWEP.Category = "ACXION - Goldeneye: Source"
 
-SWEP.Model = "models/weapons/gl/w_gl.mdl"
+SWEP.Model = "models/weapons/gl/v_gl.mdl"
 
-SWEP.ModelOffsetView = Vector(5, 20, -4)
-SWEP.ModelAngleView = Angle(-90, 180, 90)
+SWEP.ModelOffsetView = Vector(0, 0, -0)
+SWEP.ModelAngleView = Angle(0, 0, 0)
 
 SWEP.ModelOffsetWorld = Vector(0, 0, 0)
 SWEP.ModelAngleWorld = Angle(0, 0, 0)
@@ -72,7 +72,7 @@ SWEP.HolsterTime = 0.4
 
 SWEP.MuzzleTexture = "effects/combinemuzzle1"
 
-SWEP.MuzzleOffset = Vector(5, 0, 0)
+SWEP.MuzzleOffset = Vector(4, 30, -5)
 SWEP.MuzzleAngle = Angle(0, 0, 0)
 SWEP.MuzzleScale = 1
 
