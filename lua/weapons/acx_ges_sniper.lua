@@ -34,7 +34,7 @@ SWEP.Firemode = "semi"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 1.1
+SWEP.ReloadTime = 1
 SWEP.ReloadDifficultyMult = 1
 SWEP.ShotgunReload = false
 
@@ -46,7 +46,7 @@ SWEP.AutoAimInSights = true
 SWEP.Primary.Ammo = "357"
 SWEP.Primary.ClipSize = 5
 SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 3
-SWEP.FastReloadBonus = 2
+SWEP.FastReloadBonus = 1
 
 SWEP.Magnification = 4
 
@@ -57,6 +57,9 @@ SWEP.AimAngle = Angle(0, 0, 0)
 
 SWEP.RecoilOffset = Vector(0, -3, 0)
 SWEP.RecoilAngle = Angle(0, 0, 0)
+
+SWEP.HolsterOffset = Vector(-25, 0, -10)
+SWEP.HolsterAngle = Angle(-90, 0, 0)
 
 ----------------- Gestures
 

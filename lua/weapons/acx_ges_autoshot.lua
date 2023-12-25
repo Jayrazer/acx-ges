@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "acx_base"
 SWEP.Spawnable = true
 
-SWEP.PrintName = "Auto Shotgun" -- Weird mishapen SPAS-12 with wood furniture
+SWEP.PrintName = "Automatic Shotgun" -- Weird mishapen SPAS-12 with wood furniture
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 3
 
@@ -25,7 +25,7 @@ SWEP.Spread = 0.06
 SWEP.Recoil = 1
 SWEP.RateOfFire = 130
 
-SWEP.Firemode = "semi"
+SWEP.Firemode = "auto"
 -- auto
 -- semi
 -- semi_falling
@@ -34,7 +34,7 @@ SWEP.Firemode = "semi"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.45
+SWEP.ReloadTime = 0.4
 SWEP.ReloadDifficultyMult = 0.4
 SWEP.ShotgunReload = true
 
@@ -45,7 +45,7 @@ SWEP.AutoAimSpeed = 40
 SWEP.Primary.Ammo = "buckshot"
 SWEP.Primary.ClipSize = 5
 SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 3
-SWEP.FastReloadBonus = 0
+SWEP.FastReloadBonus = 2
 
 SWEP.Magnification = 1.1
 
@@ -55,8 +55,11 @@ SWEP.ScopeOverlay = nil
 SWEP.AimOffset = Vector(0, 0, 0)
 SWEP.AimAngle = Angle(0, 0, 0)
 
-SWEP.RecoilOffset = Vector(0, -4, 0)
+SWEP.RecoilOffset = Vector(0, -6, 0)
 SWEP.RecoilAngle = Angle(0, 0, 0)
+
+SWEP.HolsterOffset = Vector(-25, 0, -10)
+SWEP.HolsterAngle = Angle(90, 0, 0)
 
 ----------------- Gestures
 

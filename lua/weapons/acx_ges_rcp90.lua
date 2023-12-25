@@ -45,7 +45,7 @@ SWEP.AutoAimSpeed = 35
 SWEP.Primary.Ammo = "smg1"
 SWEP.Primary.ClipSize = 80
 SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 3
-SWEP.FastReloadBonus = 10
+SWEP.FastReloadBonus = 5
 
 SWEP.Magnification = 1.25
 
@@ -57,6 +57,9 @@ SWEP.AimAngle = Angle(0, 0, 0)
 
 SWEP.RecoilOffset = Vector(0, -2, 0)
 SWEP.RecoilAngle = Angle(0, 0, 0)
+
+SWEP.HolsterOffset = Vector(-25, 0, -10)
+SWEP.HolsterAngle = Angle(90, 0, 0)
 
 ----------------- Gestures
 

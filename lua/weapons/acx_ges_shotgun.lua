@@ -45,7 +45,7 @@ SWEP.AutoAimSpeed = 45
 SWEP.Primary.Ammo = "buckshot"
 SWEP.Primary.ClipSize = 5
 SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 3
-SWEP.FastReloadBonus = 0
+SWEP.FastReloadBonus = 3
 
 SWEP.Magnification = 1.1
 
@@ -57,6 +57,9 @@ SWEP.AimAngle = Angle(0, 0, 0)
 
 SWEP.RecoilOffset = Vector(0, -4, 0)
 SWEP.RecoilAngle = Angle(0, 0, 0)
+
+SWEP.HolsterOffset = Vector(-25, 0, -10)
+SWEP.HolsterAngle = Angle(90, 0, 0)
 
 ----------------- Gestures
 

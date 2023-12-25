@@ -15,6 +15,9 @@ SWEP.ModelAngleView = Angle(-90, 180, 90)
 SWEP.ModelOffsetWorld = Vector(0, 0, 0)
 SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
+SWEP.HolsterOffset = Vector(-25, 0, -10)
+SWEP.HolsterAngle = Angle(90, 0, 0)
+
 ----------------- Stats
 
 SWEP.Damage = 11
