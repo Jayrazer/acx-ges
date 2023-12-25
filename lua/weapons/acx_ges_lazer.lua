@@ -7,10 +7,10 @@ SWEP.PrintName = "Moonraker Laser" -- the freaking lazar gun
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 3
 
-SWEP.Model = "models/weapons/acx_ges/v_moonraker.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_moonraker.mdl"
 
-SWEP.ModelOffsetView = Vector(0, -1, 1)
-SWEP.ModelAngleView = Angle(0, 0, 0)
+SWEP.ModelOffsetView = Vector(5, 18, -5)
+SWEP.ModelAngleView = Angle(0, 180, 180)
 
 SWEP.ModelOffsetWorld = Vector(0, 0, 0)
 SWEP.ModelAngleWorld = Angle(0, 0, 0)
@@ -34,18 +34,18 @@ SWEP.Firemode = "semi"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 1.1
+SWEP.ReloadTime = 1
 SWEP.ReloadDifficultyMult = 0.95
 SWEP.ShotgunReload = false
 
 SWEP.AutoAimAngle = math.cos(math.rad(60))
-SWEP.AutoAimRange = 700
-SWEP.AutoAimSpeed = 35
+SWEP.AutoAimRange = 800
+SWEP.AutoAimSpeed = 40
 
 SWEP.Primary.Ammo = "ar2"
-SWEP.Primary.ClipSize = 50
+SWEP.Primary.ClipSize = 40
 SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 3
-SWEP.FastReloadBonus = 25
+SWEP.FastReloadBonus = 20
 
 SWEP.Magnification = 1.25
 
@@ -57,6 +57,9 @@ SWEP.AimAngle = Angle(0, 0, 0)
 
 SWEP.RecoilOffset = Vector(0, -4, 0)
 SWEP.RecoilAngle = Angle(0, 0, 0)
+
+SWEP.HolsterOffset = Vector(-25, 0, -10)
+SWEP.HolsterAngle = Angle(90, 0, 0)
 
 ----------------- Gestures
 
@@ -73,9 +76,9 @@ SWEP.HolsterTime = 0.2
 
 SWEP.MuzzleTexture = "effects/gunshipmuzzle"
 
-SWEP.MuzzleOffset = Vector(4, 21, -5)
+SWEP.MuzzleOffset = Vector(0, -20, 0)
 SWEP.MuzzleAngle = Angle(0, 0, 0)
-SWEP.MuzzleScale = 0.5
+SWEP.MuzzleScale = 2
 
 ----------------- Sounds
 
