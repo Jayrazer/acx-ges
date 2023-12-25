@@ -12,8 +12,8 @@ SWEP.Model = "models/weapons/acx_ges/w_pp7_s.mdl"
 SWEP.ModelOffsetView = Vector(5, 17, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)
 
-SWEP.ModelOffsetWorld = Vector(0, 0, 0)
-SWEP.ModelAngleWorld = Angle(0, 0, 0)
+SWEP.ModelOffsetWorld = Vector(1, 5, -2.5)
+SWEP.ModelAngleWorld = Angle(90, 0, 90)
 
 ----------------- Stats
 

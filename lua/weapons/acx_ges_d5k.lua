@@ -12,8 +12,8 @@ SWEP.Model = "models/weapons/acx_ges/w_d5k.mdl"
 SWEP.ModelOffsetView = Vector(4, 15, -6)
 SWEP.ModelAngleView = Angle(-90, 180, 90)
 
-SWEP.ModelOffsetWorld = Vector(0, 0, 0)
-SWEP.ModelAngleWorld = Angle(0, 0, 0)
+SWEP.ModelOffsetWorld = Vector(1, 6, -3)
+SWEP.ModelAngleWorld = Angle(90, 0, 90)
 
 ----------------- Stats
 
@@ -69,9 +69,9 @@ SWEP.HolsterAngle = Angle(90, 0, 0)
 SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_AR2
 
-SWEP.HoldType = "ar2"
+SWEP.HoldType = "pistol"
 SWEP.HoldTypeSprint = "passive"
-SWEP.HoldTypeAim = "rpg"
+SWEP.HoldTypeAim = "revolver"
 
 SWEP.HolsterTime = 0.4
 

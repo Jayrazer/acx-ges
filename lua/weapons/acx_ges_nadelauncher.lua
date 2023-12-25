@@ -12,12 +12,13 @@ SWEP.Model = "models/weapons/acx_ges/w_gl.mdl"
 SWEP.ModelOffsetView = Vector(4, 20, -3)
 SWEP.ModelAngleView = Angle(-90, 180, 90)
 
-SWEP.ModelOffsetWorld = Vector(0, 0, 0)
-SWEP.ModelAngleWorld = Angle(0, 0, 0)
+SWEP.ModelOffsetWorld = Vector(1, 16, -6)
+SWEP.ModelAngleWorld = Angle(80, 0, 90)
 
 ----------------- Stats
 
 SWEP.ProjectileEntity = "acx_proj_40mm"
+SWEP.ProjectileForce = 3000
 
 SWEP.Damage = 50
 SWEP.Num = 1

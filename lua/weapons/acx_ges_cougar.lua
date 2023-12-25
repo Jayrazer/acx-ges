@@ -12,8 +12,8 @@ SWEP.Model = "models/weapons/acx_ges/w_cougar_magnum.mdl"
 SWEP.ModelOffsetView = Vector(5, 14, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)
 
-SWEP.ModelOffsetWorld = Vector(0, 0, 0)
-SWEP.ModelAngleWorld = Angle(0, 0, 0)
+SWEP.ModelOffsetWorld = Vector(1, 3.5, -3)
+SWEP.ModelAngleWorld = Angle(90, 0, 90)
 
 ----------------- Stats
 

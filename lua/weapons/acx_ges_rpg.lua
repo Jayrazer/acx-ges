@@ -12,8 +12,8 @@ SWEP.Model = "models/weapons/acx_ges/w_rocket_launcher.mdl"
 SWEP.ModelOffsetView = Vector(5, 14, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)
 
-SWEP.ModelOffsetWorld = Vector(0, 0, 0)
-SWEP.ModelAngleWorld = Angle(0, 0, 0)
+SWEP.ModelOffsetWorld = Vector(1, 4, -3.5)
+SWEP.ModelAngleWorld = Angle(90, 0, 90)
 
 SWEP.Bodygroups = "0000"
 
@@ -75,7 +75,7 @@ SWEP.HolsterAngle = Angle(90, 0, 0)
 SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_AR2
 
-SWEP.HoldType = "ar2"
+SWEP.HoldType = "rpg"
 SWEP.HoldTypeSprint = "passive"
 SWEP.HoldTypeAim = "rpg"
 

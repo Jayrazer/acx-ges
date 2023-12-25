@@ -12,8 +12,8 @@ SWEP.Model = "models/weapons/acx_ges/w_sniperrifle.mdl"
 SWEP.ModelOffsetView = Vector(4, 23, -5)
 SWEP.ModelAngleView = Angle(-90, 0, 90)
 
-SWEP.ModelOffsetWorld = Vector(0, 0, 0)
-SWEP.ModelAngleWorld = Angle(0, 0, 0)
+SWEP.ModelOffsetWorld = Vector(1, 13.25, -4.25)
+SWEP.ModelAngleWorld = Angle(100, 180, 90)
 
 ----------------- Stats
 
