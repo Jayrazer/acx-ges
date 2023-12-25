@@ -15,9 +15,6 @@ SWEP.ModelAngleView = Angle(-90, 180, 90)
 SWEP.ModelOffsetWorld = Vector(0, 0, 0)
 SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
-SWEP.HolsterOffset = Vector(-25, 0, -10)
-SWEP.HolsterAngle = Angle(90, 0, 0)
-
 ----------------- Stats
 
 SWEP.Damage = 18
@@ -59,7 +56,10 @@ SWEP.AimOffset = Vector(0, 0, 0)
 SWEP.AimAngle = Angle(0, 0, 0)
 
 SWEP.RecoilOffset = Vector(0, -4, 0)
-SWEP.RecoilAngle = Angle(-30, 0, 0)
+SWEP.RecoilAngle = Angle(-10, 0, 0)
+
+SWEP.HolsterOffset = Vector(-25, 0, -10)
+SWEP.HolsterAngle = Angle(90, 0, 0)
 
 ----------------- Gestures
 
@@ -76,7 +76,7 @@ SWEP.HolsterTime = 0.2
 
 SWEP.MuzzleTexture = "effects/combinemuzzle2"
 
-SWEP.MuzzleOffset = Vector(-1, -1, 0)
+SWEP.MuzzleOffset = Vector(5, 0, 0)
 SWEP.MuzzleAngle = Angle(0, 0, 0)
 SWEP.MuzzleScale = 0.5
 

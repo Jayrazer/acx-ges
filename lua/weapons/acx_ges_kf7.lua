@@ -47,7 +47,7 @@ SWEP.Primary.ClipSize = 30
 SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 3
 SWEP.FastReloadBonus = 10
 
-SWEP.Magnification = 1.5
+SWEP.Magnification = 1.75
 
 SWEP.HasScope = false
 SWEP.ScopeOverlay = nil
@@ -76,7 +76,7 @@ SWEP.HolsterTime = 0.4
 
 SWEP.MuzzleTexture = "effects/ar2_altfire1b"
 
-SWEP.MuzzleOffset = Vector(-5, 0, 0)
+SWEP.MuzzleOffset = Vector(-16, -0.5, 0)
 SWEP.MuzzleAngle = Angle(0, 0, 0)
 SWEP.MuzzleScale = 1
 

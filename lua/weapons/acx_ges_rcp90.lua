@@ -35,7 +35,7 @@ SWEP.Firemode = "auto"
 -- burst_3, burst_2
 
 SWEP.ReloadTime = 1
-SWEP.ReloadDifficultyMult = 1.15
+SWEP.ReloadDifficultyMult = 1.1
 SWEP.ShotgunReload = false
 
 SWEP.AutoAimAngle = math.cos(math.rad(30))
@@ -76,7 +76,7 @@ SWEP.HolsterTime = 0.4
 
 SWEP.MuzzleTexture = "effects/gunshipmuzzle"
 
-SWEP.MuzzleOffset = Vector(0, 0, 0)
+SWEP.MuzzleOffset = Vector(14, 0.75, 0)
 SWEP.MuzzleAngle = Angle(0, 0, 0)
 SWEP.MuzzleScale = 0.5
 
