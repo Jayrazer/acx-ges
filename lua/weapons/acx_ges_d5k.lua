@@ -7,7 +7,7 @@ SWEP.PrintName = "D5K Deutsche" -- MP5K
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 2
 
-SWEP.Model = "models/weapons/d5k/w_d5k.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_d5k.mdl"
 
 SWEP.ModelOffsetView = Vector(4, 15, -6)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

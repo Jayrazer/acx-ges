@@ -7,7 +7,7 @@ SWEP.PrintName = "RC-P90" -- P90
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 2
 
-SWEP.Model = "models/weapons/rcp90/w_rcp90.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_rcp90.mdl"
 
 SWEP.ModelOffsetView = Vector(5, 17, -5.5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

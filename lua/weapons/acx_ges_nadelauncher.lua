@@ -7,7 +7,7 @@ SWEP.PrintName = "Grenade Launcher" -- It's an AK mangled into an pseudo-M32 MGL
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 4
 
-SWEP.Model = "models/weapons/gl/v_gl.mdl"
+SWEP.Model = "models/weapons/acx_ges/v_gl.mdl"
 
 SWEP.ModelOffsetView = Vector(0, -1, -0)
 SWEP.ModelAngleView = Angle(0, 0, 0)

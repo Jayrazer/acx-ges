@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/v_models/v_hands/bond_sleves"
+	"$bumpmap" "models/weapons/v_models/v_hands/bond_sleves_normal"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost"	".35"
+	"$phongfresnelranges" "[0.05 0.5 2]"
+	"$lightwarptexture" "models\lightwarps\sharp01"
+//	"$normalmapalphaphongmask" "1"
+}

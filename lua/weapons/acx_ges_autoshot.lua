@@ -7,7 +7,7 @@ SWEP.PrintName = "Automatic Shotgun" -- Weird mishapen SPAS-12 with wood furnitu
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 3
 
-SWEP.Model = "models/weapons/autosg/w_autosg.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_autosg.mdl"
 
 SWEP.ModelOffsetView = Vector(4, 18, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

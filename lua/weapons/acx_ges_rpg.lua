@@ -7,7 +7,7 @@ SWEP.PrintName = "Rocket Launcher" -- Vaguely RPG-7
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 4
 
-SWEP.Model = "models/weapons/rocket_launcher/w_rocket_launcher.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_rocket_launcher.mdl"
 
 SWEP.ModelOffsetView = Vector(5, 14, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

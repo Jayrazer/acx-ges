@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/v_models/v_hands/bond_hand"
+	"$bumpmap" "models/weapons/v_models/v_hands/bond_hand_normal"
+
+	"$phong" "1"
+	"$PhongExponentTexture" "models/weapons/v_models/v_hands/bond_hand_exp"
+	"$phongboost"	"6"
+	"$phongfresnelranges" "[0.1 0.65 2]"
+	"$lightwarptexture" "models\lightwarps\soft01"
+	"$bumpmapalphaphongmask" 1
+//	"$phongtint" "[.8 .85 1]"
+	"$halflambert" 1
+}

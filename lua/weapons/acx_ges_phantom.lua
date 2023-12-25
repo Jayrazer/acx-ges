@@ -7,7 +7,7 @@ SWEP.PrintName = "Phantom" -- Spectre M4
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 2
 
-SWEP.Model = "models/weapons/phantom/w_phantom.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_phantom.mdl"
 
 SWEP.ModelOffsetView = Vector(4, 14, -4)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

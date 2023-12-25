@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\v_pp7\v_pp7_silver"
+	"$bumpmap" "models\weapons\v_models\v_pp7\v_pp7_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	//"$envmapcontrast" "0"
+	"$envmaptint" "[3 3 3.3]"
+
+	"$phong" "1"
+	//"$phongexponent" "40"
+	"$phongexponenttexture" "models\weapons\v_models\v_pp7\v_pp7_phong"
+	"$phongboost"	"80"
+	//"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[0.5 5 2.5]" //[Front/Back - Left/Right - Top/Bottom]
+	"$halflambert" "1"
+
+}

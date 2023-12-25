@@ -7,7 +7,7 @@ SWEP.PrintName = "PP7" -- PPK
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 1
 
-SWEP.Model = "models/weapons/pp7/w_pp7.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_pp7.mdl"
 
 SWEP.ModelOffsetView = Vector(5, 16, -4)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

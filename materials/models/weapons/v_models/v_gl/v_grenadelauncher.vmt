@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+   "$baseTexture" "models\Weapons\v_models\v_gl\v_grenadelauncher"
+   "$bumpmap" "models\weapons\v_models\v_gl\v_grenadelauncher_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "1"
+	"$envmaptint" "[.3 .3 .3]"
+
+	"$phong" "1"
+	//"$phongexponent" "15"
+	"$phongexponenttexture" "models\weapons\v_models\v_gl\v_grenadelauncher_phong"
+	"$phongboost"	"40"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[0.1 0.6 1.5]"
+	"$halflambert" "1"
+}

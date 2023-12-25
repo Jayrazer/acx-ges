@@ -7,7 +7,7 @@ SWEP.PrintName = "ZMG 9mm" -- Micro Uzi
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 1
 
-SWEP.Model = "models/weapons/zmg/w_zmg.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_zmg.mdl"
 
 SWEP.ModelOffsetView = Vector(6, 17, -8)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

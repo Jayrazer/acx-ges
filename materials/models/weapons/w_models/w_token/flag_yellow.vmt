@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/weapons/w_models/w_token/flag_yellow"
+	"$detail" "models/weapons/w_models/w_token/flag_detail"
+	"$detailscale" 1
+	"$detailblendfactor" 1
+	"$detailblendmode" 8
+	"$nodecal" 1
+}

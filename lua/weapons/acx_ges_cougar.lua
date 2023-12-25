@@ -7,7 +7,7 @@ SWEP.PrintName = "Cougar Magnum" -- Ruger Blackhawk
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 1
 
-SWEP.Model = "models/weapons/cougar_magnum/w_cougar_magnum.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_cougar_magnum.mdl"
 
 SWEP.ModelOffsetView = Vector(5, 14, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

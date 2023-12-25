@@ -7,7 +7,7 @@ SWEP.PrintName = "DD44 Dostovei" -- TT-33
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 1
 
-SWEP.Model = "models/weapons/dd44/w_dd44.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_dd44.mdl"
 
 SWEP.ModelOffsetView = Vector(5, 16, -4)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

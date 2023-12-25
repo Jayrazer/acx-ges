@@ -7,7 +7,7 @@ SWEP.PrintName = "Klobb" -- Skorpion
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 1
 
-SWEP.Model = "models/weapons/klobb/w_klobb.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_klobb.mdl"
 
 SWEP.ModelOffsetView = Vector(5, 15, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

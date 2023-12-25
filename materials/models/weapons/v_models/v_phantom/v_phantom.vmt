@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\v_phantom\v_phantom"
+	"$bumpmap" "models\weapons\v_models\v_phantom\v_phantom_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "0"
+	"$envmaptint" "[.28 .28 .30]"
+
+	"$phong" "1"
+	//"$phongexponent" "40"
+	"$phongexponenttexture" "models\weapons\v_models\v_phantom\v_phantom_phong"
+	"$phongboost"	"85"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[0.5 .85 1.5]"
+	"$halflambert" "1"
+//	"$lightwarptexture" "models\lightwarps\sharp01"
+}

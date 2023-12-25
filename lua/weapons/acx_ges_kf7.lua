@@ -7,7 +7,7 @@ SWEP.PrintName = "KF7 Soviet" -- AK 47
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 2
 
-SWEP.Model = "models/weapons/kf7/w_kf7.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_kf7.mdl"
 
 SWEP.ModelOffsetView = Vector(4.5, 19, -5)
 SWEP.ModelAngleView = Angle(-90, 0, 90)

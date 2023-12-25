@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/v_models/v_hands/seamaster"
+	"$bumpmap" "models/weapons/v_models/v_hands/seamaster_normal"
+
+	"$selfillum" 1
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "1"
+//	"$envmaptint" "[.5 .5 .5]"
+
+	"$phong" "1"
+	"$phongexponent" 8
+//	"$phongexponenttexture" "models\weapons\v_models\v_knife\knife_phong"
+	"$phongboost"	"8"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[0.5 .85 1.5]"
+	"$halflambert" "1"
+}

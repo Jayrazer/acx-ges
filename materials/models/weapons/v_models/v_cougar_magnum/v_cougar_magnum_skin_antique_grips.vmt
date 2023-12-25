@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "\models\weapons\v_models\v_cougar_magnum\v_cougar_magnum"
+	"$bumpmap" "\models\weapons\v_models\v_cougar_magnum\v_cougar_magnum_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "1"
+	"$envmaptint" "[1 1 1.1]"
+
+	"$phong" "1"
+	//"$phongexponent" "40"
+	"$phongexponenttexture" "models\weapons\v_models\v_cougar_magnum\v_cougar_magnum_phong"
+	"$phongboost"	"15"
+	//"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 2.5 1.5]" //[Front/Back - Left/Right - Top/Bottom]
+	"$halflambert" "1"
+
+	//"$phongwarptexture" "models\lightwarps\met_phongwarp_final"
+
+	"$color2"		 "{100 100 100}"
+
+}

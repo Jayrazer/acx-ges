@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\v_dd44\v_dd44"
+	"$bumpmap" "models\weapons\v_models\v_dd44\v_dd44_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "1"
+	"$envmaptint" "[.2 .2 .21]"
+
+	"$phong" "1"
+	"$phongexponenttexture" "models\weapons\v_models\v_dd44\v_dd44_phong"
+	"$phongboost"	"20"
+	//"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[0.5 1 2]"
+}

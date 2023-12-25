@@ -7,7 +7,7 @@ SWEP.PrintName = "US AR33" -- M16
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 2
 
-SWEP.Model = "models/weapons/ar33/w_ar33.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_ar33.mdl"
 
 SWEP.ModelOffsetView = Vector(4, 21, -6)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

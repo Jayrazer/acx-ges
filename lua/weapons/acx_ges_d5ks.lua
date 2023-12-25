@@ -7,7 +7,7 @@ SWEP.PrintName = "D5K Silenced" -- MP5K
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 2
 
-SWEP.Model = "models/weapons/d5k/w_d5k_silenced.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_d5k_silenced.mdl"
 
 SWEP.ModelOffsetView = Vector(4, 20, -6)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

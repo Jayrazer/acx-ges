@@ -7,7 +7,7 @@ SWEP.PrintName = "Shotgun" -- Remington 870
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 3
 
-SWEP.Model = "models/weapons/shotgun/w_shotgun.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_shotgun.mdl"
 
 SWEP.ModelOffsetView = Vector(4, 18, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

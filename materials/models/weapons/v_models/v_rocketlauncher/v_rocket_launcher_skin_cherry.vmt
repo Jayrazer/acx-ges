@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\v_rocketlauncher\v_rocket_launcher"
+	"$bumpmap" "models\weapons\v_models\v_rocketlauncher\v_rocket_launcher_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "1"
+	//"$envmaptint" "[.2 .2 .2]"
+
+	"$phong" "1"
+	//"$phongexponent" "15"
+	"$phongexponenttexture" "models\weapons\v_models\v_rocketlauncher\v_rocket_launcher_phong"
+	"$phongboost"	"80"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[0.5 .85 1.5]"
+	"$halflambert" "1"
+
+	//Skin
+	"$color2"		 "{190 33 33}"
+	"$phongtint"	"[1 .2 .2]"
+	"$envmaptint" 	"[1 .5 .5]"
+}

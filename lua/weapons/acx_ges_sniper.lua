@@ -7,7 +7,7 @@ SWEP.PrintName = "Sniper Rifle" -- Weird AK-SKS-SVD...thing...
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 4
 
-SWEP.Model = "models/weapons/sniperrifle/w_sniperrifle.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_sniperrifle.mdl"
 
 SWEP.ModelOffsetView = Vector(4, 23, -5)
 SWEP.ModelAngleView = Angle(-90, 0, 90)

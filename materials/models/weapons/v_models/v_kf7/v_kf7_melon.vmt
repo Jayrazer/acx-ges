@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\v_kf7\v_Kf7_melon"
+	"$bumpmap" "models\weapons\v_models\v_kf7\v_kf7_normal"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.20 .15 .25]"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost"	"8"
+	"$phongfresnelranges" "[0.1 0.95 10]"
+	"$lightwarptexture" "models\lightwarps\sharp01"
+}

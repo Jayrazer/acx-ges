@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\v_dd44\v_dd44"
+	"$bumpmap" "models\weapons\v_models\v_dd44\v_dd44_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "1"
+	//"$envmaptint" "[.2 .2 .21]"
+
+	"$phong" "1"
+	"$phongexponenttexture" "models\weapons\v_models\v_dd44\v_dd44_phong"
+	//"$phongboost"	"20"
+	//"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[0.5 1 2]"
+
+		// Ivory Skin
+	//"$color2"		 "{45 45 45}"
+	"$envmaptint" 	"[.2 .2 .23]"
+	"$phongtint"	"[.8 .8 .85]"
+	"$phongboost"	"60"
+	"$detail"			"\models\weapons\v_models\v_skintextures\deco"
+	"$detailscale"		"4"
+	"$detailblendfactor"		".65"
+	"$detailblendmode"		"0"
+	//"$detailtint"		"127 127 127"
+	"$detailtexturetransform"	"center .5 .83 scale .75 1 rotate 45  translate 0 0"
+}

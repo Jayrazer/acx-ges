@@ -7,7 +7,7 @@ SWEP.PrintName = "Golden Gun" -- the freaking golden gun
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 1
 
-SWEP.Model = "models/weapons/goldengun/w_goldengun.mdl"
+SWEP.Model = "models/weapons/acx_ges/w_goldengun.mdl"
 
 SWEP.ModelOffsetView = Vector(4.5, 17, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

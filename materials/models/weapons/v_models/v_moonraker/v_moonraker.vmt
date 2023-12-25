@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\weapons\v_models\v_moonraker\v_moonraker"
+	"$bumpmap"  			"models\weapons\v_models\v_moonraker\v_moonraker_normal"
+"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$phong" 			"1"
+	"$phongexponent" 		"4"
+	"$phongboost" 			"1"
+	"$phongfresnelranges" 		"[.95 .97 1]"
+	"$lightwarptexture" "models\lightwarps\sharp01"
+
+}

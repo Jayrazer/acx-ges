@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\v_shotgun\v_shotgun"
+	"$bumpmap" "models\weapons\v_models\v_shotgun\v_shotgun_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "1"
+	"$envmaptint" "[.26	 .18 .06]"
+
+	"$phong" "1"
+	//"$phongexponent" "15"
+	"$phongexponenttexture" "models\weapons\v_models\v_shotgun\v_shotgun_phong"
+	"$phongboost"	"80"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[0.5 1.7 3]"
+	//"$phongfresnelranges"	"[10 5 0]"
+	"$halflambert" "1"
+	//"$lightwarptexture" "models\lightwarps\sharp01"
+
+}

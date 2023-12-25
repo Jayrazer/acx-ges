@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/weapons/w_models/w_token/briefcase"
+    "$model" "1"
+}
+

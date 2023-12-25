@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\v_models\v_sniperrifle\v_sniper_rifle"
+	"$additive" "1"
+	"$bumpmap"	"models\weapons\v_models\v_sniperrifle\v_sniper_rifle_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[2 2 2]"
+	"$envmapmask" "models\weapons\v_models\v_sniperrifle\v_sniper_rifle_lense_mask"
+	"$multipass" "1"
+	
+	"$phong" "1"
+	"$phongexponent" "20"
+	//"$phongexponenttexture" "models\weapons\v_models\v_sniperrifle\v_sniper_rifle_phong"
+	"$phongboost"	"50"
+	"$phongfresnelranges" "[.1 .7 3]"
+	//"$lightwarptexture" "models\lightwarps\sharp01"
+
+}
