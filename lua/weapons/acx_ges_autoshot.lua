@@ -23,9 +23,9 @@ SWEP.HeadshotMultiplier = 1
 SWEP.ArmorPiercing = 0
 SWEP.Spread = 0.06
 SWEP.Recoil = 1
-SWEP.RateOfFire = 130
+SWEP.RateOfFire = 135
 
-SWEP.Firemode = "auto"
+SWEP.Firemode = "semi"
 -- auto
 -- semi
 -- semi_falling
