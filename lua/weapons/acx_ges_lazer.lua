@@ -10,7 +10,7 @@ SWEP.DrawWeaponInfoBox = true
 SWEP.Description = "No recoil and and decent magazine size."
 SWEP.TypeName = "Laser Gun"
 
-SWEP.Model = "models/weapons/acx_ges/w_moonraker.mdl"
+SWEP.Model = "models/weapons/acx_ges/c_moonraker.mdl"
 
 SWEP.ModelOffsetView = Vector(5, 18, -5)
 SWEP.ModelAngleView = Angle(0, 180, 180)
@@ -20,12 +20,24 @@ SWEP.ModelAngleWorld = Angle(0, 0, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 25
+SWEP.Damage = 15
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 2
-SWEP.Spread = 0.015
-SWEP.Recoil = 0.5
-SWEP.RateOfFire = 200
+
+SWEP.Spread = 0.03
+SWEP.Recoil = 0
+SWEP.RateOfFire = 250
+
+-- Multiplier in sights
+SWEP.SpreadSightsMult = 0.8
+SWEP.RecoilSightsMult = 1
+SWEP.AutoAimSpeedSightsMult = 1
+
+-- Multiplier in akimbo
+SWEP.CanAkimbo = true
+SWEP.SpreadAkimboMult = 1.75
+SWEP.RecoilAkimboMult = 1
+SWEP.AutoAimSpeedAkimboMult = 1
 
 SWEP.Firemode = "semi"
 -- auto
