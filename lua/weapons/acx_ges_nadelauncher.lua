@@ -6,6 +6,9 @@ SWEP.Spawnable = true
 SWEP.PrintName = "Grenade Launcher" -- It's an AK mangled into an pseudo-M32 MGL? Huh?
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 4
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "Multi-shot grenade launcher."
+SWEP.TypeName = "Launcher"
 
 SWEP.Model = "models/weapons/acx_ges/w_gl.mdl"
 
@@ -23,7 +26,6 @@ SWEP.ProjectileForce = 3000
 SWEP.Damage = 50
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1
-SWEP.ArmorPiercing = 0
 SWEP.Spread = 0.04
 SWEP.Recoil = 1
 SWEP.RateOfFire = 75

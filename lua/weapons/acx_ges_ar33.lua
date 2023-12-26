@@ -6,8 +6,12 @@ SWEP.Spawnable = true
 SWEP.PrintName = "US AR33" -- M16
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 2
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "High rate of fire and low recoil."
+SWEP.TypeName = "Assault Rifle"
 
 SWEP.Model = "models/weapons/acx_ges/w_ar33.mdl"
+SWEP.WorldModel = SWEP.ViewModel
 
 SWEP.ModelOffsetView = Vector(4, 21, -6)
 SWEP.ModelAngleView = Angle(-90, 180, 90)
@@ -20,10 +24,21 @@ SWEP.ModelAngleWorld = Angle(90, 0, 90)
 SWEP.Damage = 18
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1.5
-SWEP.ArmorPiercing = 0.5
-SWEP.Spread = 0.01
+
+SWEP.Spread = 0.03
 SWEP.Recoil = 0.75
 SWEP.RateOfFire = 750
+
+-- Multiplier in sights
+SWEP.SpreadSightsMult = 0.3
+SWEP.RecoilSightsMult = 0.3
+SWEP.AutoAimSpeedSightsMult = 1
+
+-- Multiplier in akimbo
+SWEP.CanAkimbo = true
+SWEP.SpreadAkimboMult = 1.55
+SWEP.RecoilAkimboMult = 1.2
+SWEP.AutoAimSpeedAkimboMult = 1
 
 SWEP.Firemode = "auto"
 -- auto
@@ -39,8 +54,9 @@ SWEP.ReloadDifficultyMult = 1
 SWEP.ShotgunReload = false
 
 SWEP.AutoAimAngle = math.cos(math.rad(20))
-SWEP.AutoAimRange = 1250
+SWEP.AutoAimRange = 1500
 SWEP.AutoAimSpeed = 30
+SWEP.AutoAimSeek = "body"
 
 SWEP.Primary.Ammo = "ar2"
 SWEP.Primary.ClipSize = 30

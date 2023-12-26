@@ -6,6 +6,9 @@ SWEP.Spawnable = true
 SWEP.PrintName = "Sniper Rifle" -- Weird AK-SKS-SVD...thing...
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 4
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "Ultra-precise, one headshot to kill."
+SWEP.TypeName = "Sniper"
 
 SWEP.Model = "models/weapons/acx_ges/w_sniperrifle.mdl"
 
@@ -20,7 +23,6 @@ SWEP.ModelAngleWorld = Angle(100, 180, 90)
 SWEP.Damage = 60
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 2
-SWEP.ArmorPiercing = 0.75
 SWEP.Spread = 0.0
 SWEP.Recoil = 1.5
 SWEP.RateOfFire = 90

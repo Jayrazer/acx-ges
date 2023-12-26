@@ -6,6 +6,9 @@ SWEP.Spawnable = true
 SWEP.PrintName = "Moonraker Laser" -- the freaking lazar gun
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 3
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "No recoil and and decent magazine size."
+SWEP.TypeName = "Laser Gun"
 
 SWEP.Model = "models/weapons/acx_ges/w_moonraker.mdl"
 
@@ -20,7 +23,6 @@ SWEP.ModelAngleWorld = Angle(0, 0, 0)
 SWEP.Damage = 25
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 2
-SWEP.ArmorPiercing = 0.25
 SWEP.Spread = 0.015
 SWEP.Recoil = 0.5
 SWEP.RateOfFire = 200

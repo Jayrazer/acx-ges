@@ -6,6 +6,9 @@ SWEP.Spawnable = true
 SWEP.PrintName = "KF7 Soviet" -- AK 47
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 2
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "Low rate of fire and good damage."
+SWEP.TypeName = "Assault Rifle"
 
 SWEP.Model = "models/weapons/acx_ges/w_kf7.mdl"
 
@@ -20,7 +23,6 @@ SWEP.ModelAngleWorld = Angle(90, 180, 90)
 SWEP.Damage = 22
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1.5
-SWEP.ArmorPiercing = 0.5
 SWEP.Spread = 0.01
 SWEP.Recoil = 0.8
 SWEP.RateOfFire = 550

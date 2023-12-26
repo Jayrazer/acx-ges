@@ -6,6 +6,9 @@ SWEP.Spawnable = true
 SWEP.PrintName = "Rocket Launcher" -- Vaguely RPG-7
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 4
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "Heavy rocket launcher."
+SWEP.TypeName = "Launcher"
 
 SWEP.Model = "models/weapons/acx_ges/w_rocket_launcher.mdl"
 
@@ -29,7 +32,6 @@ SWEP.ProjectileEntity = "acx_proj_rpg"
 SWEP.Damage = 50
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1
-SWEP.ArmorPiercing = 0
 SWEP.Spread = 0.04
 SWEP.Recoil = 1
 SWEP.RateOfFire = 125

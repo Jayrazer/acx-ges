@@ -6,6 +6,9 @@ SWEP.Spawnable = true
 SWEP.PrintName = "PP7 Silver" -- PPK
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 1
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "Bond's signature weapon, silver-plated for more damage."
+SWEP.TypeName = "Pistol"
 
 SWEP.Model = "models/weapons/acx_ges/w_pp7_silver.mdl"
 
@@ -20,7 +23,6 @@ SWEP.ModelAngleWorld = Angle(90, 0, 90)
 SWEP.Damage = 32
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 3
-SWEP.ArmorPiercing = 0.25
 SWEP.Spread = 0.015
 SWEP.Recoil = 0.25
 SWEP.RateOfFire = 500

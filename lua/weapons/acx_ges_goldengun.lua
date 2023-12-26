@@ -6,6 +6,9 @@ SWEP.Spawnable = true
 SWEP.PrintName = "Golden Gun" -- the freaking golden gun
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 1
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "Scaramanga's personal weapon, one shot to kill."
+SWEP.TypeName = "Pistol"
 
 SWEP.Model = "models/weapons/acx_ges/w_goldengun.mdl"
 
@@ -20,7 +23,6 @@ SWEP.ModelAngleWorld = Angle(90, 0, 90)
 SWEP.Damage = 200
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1
-SWEP.ArmorPiercing = 0.25
 SWEP.Spread = 0.001
 SWEP.Recoil = 2
 SWEP.RateOfFire = 75

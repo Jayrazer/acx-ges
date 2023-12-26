@@ -6,6 +6,9 @@ SWEP.Spawnable = true
 SWEP.PrintName = "Klobb" -- Skorpion
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 1
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "Low recoil but low damage and small magazine."
+SWEP.TypeName = "Machine Pistol"
 
 SWEP.Model = "models/weapons/acx_ges/w_klobb.mdl"
 

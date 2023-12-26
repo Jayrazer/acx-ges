@@ -6,6 +6,9 @@ SWEP.Spawnable = true
 SWEP.PrintName = "Cougar Magnum" -- Ruger Blackhawk
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 1
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "Pinpoint accuracy in a pistol form factor."
+SWEP.TypeName = "Revolver"
 
 SWEP.Model = "models/weapons/acx_ges/w_cougar_magnum.mdl"
 
@@ -20,7 +23,6 @@ SWEP.ModelAngleWorld = Angle(90, 0, 90)
 SWEP.Damage = 50
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 2
-SWEP.ArmorPiercing = 0.35
 SWEP.Spread = 0.001
 SWEP.Recoil = 2
 SWEP.RateOfFire = 100

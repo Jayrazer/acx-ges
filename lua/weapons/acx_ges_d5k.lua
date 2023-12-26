@@ -6,6 +6,9 @@ SWEP.Spawnable = true
 SWEP.PrintName = "D5K Deutsche" -- MP5K
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 2
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "Good all-around SMG."
+SWEP.TypeName = "SMG"
 
 SWEP.Model = "models/weapons/acx_ges/w_d5k.mdl"
 
@@ -20,7 +23,6 @@ SWEP.ModelAngleWorld = Angle(90, 0, 90)
 SWEP.Damage = 12
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1
-SWEP.ArmorPiercing = 0.25
 SWEP.Spread = 0.025
 SWEP.Recoil = 0.4
 SWEP.RateOfFire = 600

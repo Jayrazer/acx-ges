@@ -6,6 +6,9 @@ SWEP.Spawnable = true
 SWEP.PrintName = "Shotgun" -- Remington 870
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 3
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "Pump-action and moderate spread."
+SWEP.TypeName = "Shotgun"
 
 SWEP.Model = "models/weapons/acx_ges/w_shotgun.mdl"
 
@@ -20,12 +23,11 @@ SWEP.ModelAngleWorld = Angle(80, 0, 90)
 SWEP.Damage = 16
 SWEP.Num = 8
 SWEP.HeadshotMultiplier = 1
-SWEP.ArmorPiercing = 0
 SWEP.Spread = 0.04
 SWEP.Recoil = 1
-SWEP.RateOfFire = 95
+SWEP.RateOfFire = 115
 
-SWEP.Firemode = "semi"
+SWEP.Firemode = "pump"
 -- auto
 -- semi
 -- semi_falling
@@ -61,6 +63,9 @@ SWEP.RecoilAngle = Angle(0, 0, 0)
 SWEP.HolsterOffset = Vector(-25, 0, -10)
 SWEP.HolsterAngle = Angle(90, 0, 0)
 
+SWEP.CycleBetweenShots = true
+SWEP.CycleDelay = 0.15
+
 ----------------- Gestures
 
 SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
@@ -90,3 +95,5 @@ SWEP.DryFireSound = "weapons/common/dryfire.wav"
 
 SWEP.ReloadStartSound = "weapons/common/shotgun_reload.wav"
 SWEP.ReloadFinishSound = "weapons/m3/m3_insertshell.wav"
+
+SWEP.CycleSound = "weapons/common/shotgun_pump.wav"

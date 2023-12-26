@@ -6,6 +6,9 @@ SWEP.Spawnable = true
 SWEP.PrintName = "DD44 Dostovei" -- TT-33
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 1
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "All-round good performance."
+SWEP.TypeName = "Pistol"
 
 SWEP.Model = "models/weapons/acx_ges/w_dd44.mdl"
 
@@ -20,7 +23,6 @@ SWEP.ModelAngleWorld = Angle(90, 0, 90)
 SWEP.Damage = 20
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 2
-SWEP.ArmorPiercing = 0.25
 SWEP.Spread = 0.015
 SWEP.Recoil = 0.35
 SWEP.RateOfFire = 400

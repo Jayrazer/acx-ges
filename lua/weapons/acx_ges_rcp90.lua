@@ -6,6 +6,9 @@ SWEP.Spawnable = true
 SWEP.PrintName = "RC-P90" -- P90
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 2
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "High rate of fire and huge magazine."
+SWEP.TypeName = "SMG"
 
 SWEP.Model = "models/weapons/acx_ges/w_rcp90.mdl"
 
@@ -20,7 +23,6 @@ SWEP.ModelAngleWorld = Angle(90, 0, 90)
 SWEP.Damage = 8
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1
-SWEP.ArmorPiercing = 0.25
 SWEP.Spread = 0.025
 SWEP.Recoil = 0.4
 SWEP.RateOfFire = 1000

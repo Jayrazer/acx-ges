@@ -6,6 +6,9 @@ SWEP.Spawnable = true
 SWEP.PrintName = "ZMG 9mm" -- Micro Uzi
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 1
+SWEP.DrawWeaponInfoBox = true
+SWEP.Description = "Low recoil and easy to use akimbo."
+SWEP.TypeName = "Machine Pistol"
 
 SWEP.Model = "models/weapons/acx_ges/w_zmg.mdl"
 
@@ -20,7 +23,6 @@ SWEP.ModelAngleWorld = Angle(90, 0, 90)
 SWEP.Damage = 11
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1
-SWEP.ArmorPiercing = 0.25
 SWEP.Spread = 0.03
 SWEP.Recoil = 0.5
 SWEP.RateOfFire = 850
