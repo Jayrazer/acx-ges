@@ -28,13 +28,26 @@ SWEP.BulletBodygroups = {
 ----------------- Stats
 
 SWEP.ProjectileEntity = "acx_proj_rpg"
+SWEP.ProjectileForce = 5500
 
 SWEP.Damage = 50
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1
+
 SWEP.Spread = 0.04
 SWEP.Recoil = 1
 SWEP.RateOfFire = 125
+
+-- Multiplier in sights
+SWEP.SpreadSightsMult = 0.85
+SWEP.RecoilSightsMult = 1
+SWEP.AutoAimSpeedSightsMult = 1
+
+-- Multiplier in akimbo
+SWEP.CanAkimbo = true
+SWEP.SpreadAkimboMult = 1.1
+SWEP.RecoilAkimboMult = 1
+SWEP.AutoAimSpeedAkimboMult = 1
 
 SWEP.Firemode = "semi"
 -- auto
@@ -51,7 +64,7 @@ SWEP.ShotgunReload = false
 
 SWEP.AutoAimAngle = math.cos(math.rad(30))
 SWEP.AutoAimRange = 3500
-SWEP.AutoAimSpeed = 60
+SWEP.AutoAimSpeed = 45
 
 SWEP.Primary.Ammo = "rpg_round"
 SWEP.Primary.ClipSize = 1

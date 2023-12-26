@@ -23,9 +23,21 @@ SWEP.ModelAngleWorld = Angle(90, 0, 90)
 SWEP.Damage = 45
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 3
-SWEP.Spread = 0.015
+
+SWEP.Spread = 0.025
 SWEP.Recoil = 0.25
 SWEP.RateOfFire = 500
+
+-- Multiplier in sights
+SWEP.SpreadSightsMult = 0.7
+SWEP.RecoilSightsMult = 0.85
+SWEP.AutoAimSpeedSightsMult = 1
+
+-- Multiplier in akimbo
+SWEP.CanAkimbo = true
+SWEP.SpreadAkimboMult = 1.1
+SWEP.RecoilAkimboMult = 1.1
+SWEP.AutoAimSpeedAkimboMult = 1
 
 SWEP.Firemode = "semi"
 -- auto
@@ -43,6 +55,7 @@ SWEP.ShotgunReload = false
 SWEP.AutoAimAngle = math.cos(math.rad(60))
 SWEP.AutoAimRange = 500
 SWEP.AutoAimSpeed = 60
+SWEP.AutoAimSeek = "head"
 
 SWEP.Primary.Ammo = "pistol"
 SWEP.Primary.ClipSize = 7

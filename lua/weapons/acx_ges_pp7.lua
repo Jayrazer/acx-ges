@@ -20,12 +20,24 @@ SWEP.ModelAngleWorld = Angle(90, 0, 90)
 
 ----------------- Stats
 
-SWEP.Damage = 18
+SWEP.Damage = 15
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 3
+
 SWEP.Spread = 0.015
-SWEP.Recoil = 0.25
+SWEP.Recoil = 0.15
 SWEP.RateOfFire = 500
+
+-- Multiplier in sights
+SWEP.SpreadSightsMult = 0.7
+SWEP.RecoilSightsMult = 0.85
+SWEP.AutoAimSpeedSightsMult = 1
+
+-- Multiplier in akimbo
+SWEP.CanAkimbo = true
+SWEP.SpreadAkimboMult = 1.1
+SWEP.RecoilAkimboMult = 1.1
+SWEP.AutoAimSpeedAkimboMult = 1
 
 SWEP.Firemode = "semi"
 -- auto
@@ -36,7 +48,7 @@ SWEP.Firemode = "semi"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.45
+SWEP.ReloadTime = 0.5
 SWEP.ReloadDifficultyMult = 0.85
 SWEP.ShotgunReload = false
 

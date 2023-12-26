@@ -26,9 +26,21 @@ SWEP.ProjectileForce = 3000
 SWEP.Damage = 50
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1
-SWEP.Spread = 0.04
+
+SWEP.Spread = 0.05
 SWEP.Recoil = 1
 SWEP.RateOfFire = 75
+
+-- Multiplier in sights
+SWEP.SpreadSightsMult = 0.75
+SWEP.RecoilSightsMult = 1
+SWEP.AutoAimSpeedSightsMult = 1
+
+-- Multiplier in akimbo
+SWEP.CanAkimbo = true
+SWEP.SpreadAkimboMult = 2
+SWEP.RecoilAkimboMult = 1
+SWEP.AutoAimSpeedAkimboMult = 1
 
 SWEP.Firemode = "semi"
 -- auto
