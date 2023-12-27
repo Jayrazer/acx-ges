@@ -25,12 +25,12 @@ SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1.5
 
 SWEP.Spread = 0.035
-SWEP.Recoil = 0.8
+SWEP.Recoil = 0.7
 SWEP.RateOfFire = 550
 
 -- Multiplier in sights
 SWEP.SpreadSightsMult = 0.4
-SWEP.RecoilSightsMult = 0.65
+SWEP.RecoilSightsMult = 0.5
 SWEP.AutoAimSpeedSightsMult = 1
 
 -- Multiplier in akimbo
