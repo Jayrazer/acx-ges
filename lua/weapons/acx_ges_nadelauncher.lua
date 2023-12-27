@@ -81,7 +81,7 @@ SWEP.HolsterAngle = Angle(90, 0, 0)
 ----------------- Gestures
 
 SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
-SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_AR2
+SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN
 
 SWEP.HoldType = "ar2"
 SWEP.HoldTypeSprint = "passive"
@@ -93,7 +93,7 @@ SWEP.HolsterTime = 0.4
 
 SWEP.MuzzleTexture = "effects/combinemuzzle1"
 
-SWEP.MuzzleOffset = Vector(4, 30, -5)
+SWEP.MuzzleOffset = Vector(15, 1, 0)
 SWEP.MuzzleAngle = Angle(0, 0, 0)
 SWEP.MuzzleScale = 1
 

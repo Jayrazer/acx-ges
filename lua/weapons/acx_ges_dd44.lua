@@ -15,7 +15,7 @@ SWEP.Model = "models/weapons/acx_ges/w_dd44.mdl"
 SWEP.ModelOffsetView = Vector(5, 16, -4)
 SWEP.ModelAngleView = Angle(-90, 180, 90)
 
-SWEP.ModelOffsetWorld = Vector(1, 6, -2.5)
+SWEP.ModelOffsetWorld = Vector(1.5, 6, -2.5)
 SWEP.ModelAngleWorld = Angle(90, 0, 90)
 
 ----------------- Stats
@@ -91,7 +91,7 @@ SWEP.HolsterTime = 0.2
 
 SWEP.MuzzleTexture = "effects/combinemuzzle2"
 
-SWEP.MuzzleOffset = Vector(6, 0, 0)
+SWEP.MuzzleOffset = Vector(6, -1.5, 0)
 SWEP.MuzzleAngle = Angle(0, 0, 0)
 SWEP.MuzzleScale = 0.5
 

@@ -15,8 +15,8 @@ SWEP.Model = "models/weapons/acx_ges/c_moonraker.mdl"
 SWEP.ModelOffsetView = Vector(5, 18, -5)
 SWEP.ModelAngleView = Angle(0, 180, 180)
 
-SWEP.ModelOffsetWorld = Vector(0, 0, 0)
-SWEP.ModelAngleWorld = Angle(0, 0, 0)
+SWEP.ModelOffsetWorld = Vector(1, 8, -3)
+SWEP.ModelAngleWorld = Angle(0, 180, 0)
 
 ----------------- Stats
 
@@ -90,9 +90,9 @@ SWEP.HolsterTime = 0.2
 
 SWEP.MuzzleTexture = "effects/gunshipmuzzle"
 
-SWEP.MuzzleOffset = Vector(0, -20, 0)
+SWEP.MuzzleOffset = Vector(0, -12, 0)
 SWEP.MuzzleAngle = Angle(0, 0, 0)
-SWEP.MuzzleScale = 2
+SWEP.MuzzleScale = 1.75
 
 ----------------- Sounds
 
