@@ -23,7 +23,7 @@ SWEP.ModelAngleWorld = Angle(0, 180, 0)
 SWEP.Damage = 23
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 2
-SWEP.AmmoPerShot = 10
+SWEP.AmmoPerShot = 5
 
 SWEP.Spread = 0.03
 SWEP.Recoil = 0
@@ -58,7 +58,7 @@ SWEP.AutoAimRange = 800
 SWEP.AutoAimSpeed = 40
 
 SWEP.Primary.Ammo = "ar2"
-SWEP.Primary.ClipSize = 200
+SWEP.Primary.ClipSize = 100
 SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 3
 SWEP.FastReloadBonus = 20
 
