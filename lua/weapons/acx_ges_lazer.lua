@@ -7,7 +7,7 @@ SWEP.PrintName = "Moonraker Laser" -- the freaking lazar gun
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 3
 SWEP.DrawWeaponInfoBox = true
-SWEP.Description = "No recoil and and decent magazine size."
+SWEP.Description = "No recoil and high damage. Consumes a lot of ammo."
 SWEP.TypeName = "Laser Gun"
 
 SWEP.Model = "models/weapons/acx_ges/c_moonraker.mdl"
@@ -20,9 +20,10 @@ SWEP.ModelAngleWorld = Angle(0, 180, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 15
+SWEP.Damage = 23
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 2
+SWEP.AmmoPerShot = 10
 
 SWEP.Spread = 0.03
 SWEP.Recoil = 0
@@ -39,7 +40,7 @@ SWEP.SpreadAkimboMult = 1.75
 SWEP.RecoilAkimboMult = 1
 SWEP.AutoAimSpeedAkimboMult = 1
 
-SWEP.Firemode = "semi"
+SWEP.Firemode = "auto"
 -- auto
 -- semi
 -- semi_falling
@@ -48,7 +49,7 @@ SWEP.Firemode = "semi"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.95
+SWEP.ReloadTime = 0.5
 SWEP.ReloadDifficultyMult = 0.95
 SWEP.ShotgunReload = false
 
@@ -57,7 +58,7 @@ SWEP.AutoAimRange = 800
 SWEP.AutoAimSpeed = 40
 
 SWEP.Primary.Ammo = "ar2"
-SWEP.Primary.ClipSize = 40
+SWEP.Primary.ClipSize = 200
 SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 3
 SWEP.FastReloadBonus = 20
 
@@ -101,5 +102,5 @@ SWEP.ShootVolume = 110
 
 SWEP.DryFireSound = "weapons/common/dryfire.wav"
 
-SWEP.ReloadStartSound = "weapons/common/gg_reload1.wav"
-SWEP.ReloadFinishSound = "weapons/common/gg_reload.wav"
+SWEP.ReloadStartSound = "weapons/common/gg_reload.wav"
+SWEP.ReloadFinishSound = "weapons/moonraker/moonraker_draw1.wav"
