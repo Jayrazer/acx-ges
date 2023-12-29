@@ -13,6 +13,18 @@ SWEP.TypeName = "Launcher"
 SWEP.Model = "models/weapons/acx_ges/w_gl.mdl"
 SWEP.WorldModel = SWEP.Model
 
+SWEP.Bodygroups = "0000"
+
+SWEP.BulletBodygroups = {
+	[0] = {1, 7},
+    [1] = {1, 6},
+    [2] = {1, 5},
+    [3] = {1, 4},
+    [4] = {1, 3},
+    [5] = {1, 2},
+    [6] = {1, 1}
+}
+
 SWEP.ModelOffsetView = Vector(4, 20, -3)
 SWEP.ModelAngleView = Angle(-90, 180, 90)
 
