@@ -70,7 +70,7 @@ SWEP.AimOffset = Vector(0, 0, 0)
 SWEP.AimAngle = Angle(0, 0, 0)
 
 SWEP.RecoilOffset = Vector(0, -4, 0)
-SWEP.RecoilAngle = Angle(-30, 0, 0)
+SWEP.RecoilAngle = Angle(-10, 0, 0)
 
 SWEP.HolsterOffset = Vector(-25, 0, -10)
 SWEP.HolsterAngle = Angle(90, 0, 0)
