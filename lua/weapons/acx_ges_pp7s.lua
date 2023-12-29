@@ -11,6 +11,7 @@ SWEP.Description = "Silenced pistol for covert operations."
 SWEP.TypeName = "Pistol"
 
 SWEP.Model = "models/weapons/acx_ges/w_pp7_s.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(5, 17, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

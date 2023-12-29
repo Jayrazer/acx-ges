@@ -11,6 +11,7 @@ SWEP.Description = "High rate of fire and huge magazine."
 SWEP.TypeName = "SMG"
 
 SWEP.Model = "models/weapons/acx_ges/w_rcp90.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(5, 17, -5.5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

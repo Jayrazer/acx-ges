@@ -11,6 +11,7 @@ SWEP.Description = "Low recoil but low damage and small magazine."
 SWEP.TypeName = "Machine Pistol"
 
 SWEP.Model = "models/weapons/acx_ges/w_klobb.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(5, 15, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

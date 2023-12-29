@@ -11,6 +11,7 @@ SWEP.Description = "No recoil and high damage. Consumes a lot of ammo."
 SWEP.TypeName = "Laser Gun"
 
 SWEP.Model = "models/weapons/acx_ges/c_moonraker.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(5, 18, -5)
 SWEP.ModelAngleView = Angle(0, 180, 180)

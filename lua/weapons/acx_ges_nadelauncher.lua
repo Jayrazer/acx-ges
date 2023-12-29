@@ -11,6 +11,7 @@ SWEP.Description = "Multi-shot grenade launcher."
 SWEP.TypeName = "Launcher"
 
 SWEP.Model = "models/weapons/acx_ges/w_gl.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(4, 20, -3)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

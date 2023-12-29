@@ -11,6 +11,7 @@ SWEP.Description = "Low recoil and easy to use akimbo."
 SWEP.TypeName = "Machine Pistol"
 
 SWEP.Model = "models/weapons/acx_ges/c_zmg.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(6, 17, -8)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

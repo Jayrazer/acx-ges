@@ -11,6 +11,7 @@ SWEP.Description = "Pinpoint accuracy in a pistol form factor."
 SWEP.TypeName = "Revolver"
 
 SWEP.Model = "models/weapons/acx_ges/w_cougar_magnum.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(5, 14, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

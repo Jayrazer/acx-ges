@@ -11,6 +11,7 @@ SWEP.Description = "Heavy rocket launcher."
 SWEP.TypeName = "Launcher"
 
 SWEP.Model = "models/weapons/acx_ges/w_rocket_launcher.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(5, 14, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

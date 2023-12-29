@@ -11,6 +11,7 @@ SWEP.Description = "Pump-action and moderate spread."
 SWEP.TypeName = "Shotgun"
 
 SWEP.Model = "models/weapons/acx_ges/w_shotgun.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(4, 18, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

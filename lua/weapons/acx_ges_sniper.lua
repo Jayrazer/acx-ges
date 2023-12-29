@@ -11,6 +11,7 @@ SWEP.Description = "Ultra-precise, one headshot to kill."
 SWEP.TypeName = "Sniper"
 
 SWEP.Model = "models/weapons/acx_ges/w_sniperrifle.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(4, 23, -5)
 SWEP.ModelAngleView = Angle(-90, 0, 90)

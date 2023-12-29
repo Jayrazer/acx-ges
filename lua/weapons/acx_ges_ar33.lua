@@ -11,7 +11,7 @@ SWEP.Description = "High rate of fire and low recoil."
 SWEP.TypeName = "Assault Rifle"
 
 SWEP.Model = "models/weapons/acx_ges/w_ar33.mdl"
-SWEP.WorldModel = SWEP.ViewModel
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(4, 21, -6)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

@@ -11,6 +11,7 @@ SWEP.Description = "Bond's signature weapon, silver-plated for more damage."
 SWEP.TypeName = "Pistol"
 
 SWEP.Model = "models/weapons/acx_ges/w_pp7_silver.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(5, 16, -4)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

@@ -11,6 +11,7 @@ SWEP.Description = "Scaramanga's personal weapon, one shot to kill."
 SWEP.TypeName = "Pistol"
 
 SWEP.Model = "models/weapons/acx_ges/w_goldengun.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(4.5, 17, -5)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

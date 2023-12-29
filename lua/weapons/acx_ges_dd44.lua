@@ -11,6 +11,7 @@ SWEP.Description = "All-round good performance."
 SWEP.TypeName = "Pistol"
 
 SWEP.Model = "models/weapons/acx_ges/w_dd44.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(5, 16, -4)
 SWEP.ModelAngleView = Angle(-90, 180, 90)

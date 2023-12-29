@@ -11,6 +11,7 @@ SWEP.Description = "Low rate of fire and good damage."
 SWEP.TypeName = "Assault Rifle"
 
 SWEP.Model = "models/weapons/acx_ges/w_kf7.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(4.5, 19, -5)
 SWEP.ModelAngleView = Angle(-90, 0, 90)

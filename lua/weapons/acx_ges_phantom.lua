@@ -11,6 +11,7 @@ SWEP.Description = "Low recoil and large magazine."
 SWEP.TypeName = "SMG"
 
 SWEP.Model = "models/weapons/acx_ges/w_phantom.mdl"
+SWEP.WorldModel = SWEP.Model
 
 SWEP.ModelOffsetView = Vector(4, 14, -4)
 SWEP.ModelAngleView = Angle(-90, 180, 90)
