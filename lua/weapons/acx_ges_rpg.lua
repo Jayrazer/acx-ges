@@ -29,7 +29,7 @@ SWEP.BulletBodygroups = {
 ----------------- Stats
 
 SWEP.ProjectileEntity = "acx_proj_rpg"
-SWEP.ProjectileForce = 5500
+SWEP.ProjectileForce = 4500
 
 SWEP.Damage = 50
 SWEP.Num = 1
