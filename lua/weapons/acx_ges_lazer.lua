@@ -27,7 +27,7 @@ SWEP.HeadshotMultiplier = 2
 SWEP.AmmoPerShot = 5
 
 SWEP.Spread = 0.03
-SWEP.Recoil = 0
+SWEP.Recoil = 1
 SWEP.RateOfFire = 250
 
 -- Multiplier in sights
@@ -75,7 +75,7 @@ SWEP.RecoilOffset = Vector(0, -4, 0)
 SWEP.RecoilAngle = Angle(0, 0, 0)
 
 SWEP.HolsterOffset = Vector(-25, 0, -10)
-SWEP.HolsterAngle = Angle(90, 0, 0)
+SWEP.HolsterAngle = Angle(0, 0, 0)
 
 ----------------- Gestures
 
@@ -92,9 +92,9 @@ SWEP.HolsterTime = 0.2
 
 SWEP.MuzzleTexture = "effects/gunshipmuzzle"
 
-SWEP.MuzzleOffset = Vector(0, -12, 0)
+SWEP.MuzzleOffset = Vector(0, -12, 1)
 SWEP.MuzzleAngle = Angle(0, 0, 0)
-SWEP.MuzzleScale = 1.75
+SWEP.MuzzleScale = 1.5
 
 ----------------- Sounds
 
