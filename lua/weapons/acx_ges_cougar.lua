@@ -26,7 +26,7 @@ SWEP.Num = 1
 SWEP.HeadshotMultiplier = 2
 
 SWEP.Spread = 0.01
-SWEP.Recoil = 2.5
+SWEP.Recoil = 3
 SWEP.RateOfFire = 100
 
 -- Multiplier in sights
