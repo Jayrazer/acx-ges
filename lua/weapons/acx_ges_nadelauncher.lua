@@ -33,8 +33,8 @@ SWEP.ModelAngleWorld = Angle(80, 0, 90)
 
 ----------------- Stats
 
-SWEP.ProjectileEntity = "acx_proj_40mm"
-SWEP.ProjectileForce = 2500
+SWEP.ProjectileEntity = "acx_proj_nade_ges"
+SWEP.ProjectileForce = 2000
 
 SWEP.Damage = 50
 SWEP.Num = 1
