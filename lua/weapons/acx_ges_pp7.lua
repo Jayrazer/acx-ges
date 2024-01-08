@@ -26,7 +26,7 @@ SWEP.Num = 1
 SWEP.HeadshotMultiplier = 3
 
 SWEP.Spread = 0.015
-SWEP.Recoil = 0.15
+SWEP.Recoil = 0.2
 SWEP.RateOfFire = 500
 
 -- Multiplier in sights
@@ -70,7 +70,7 @@ SWEP.ScopeOverlay = nil
 SWEP.AimOffset = Vector(0, 0, 0)
 SWEP.AimAngle = Angle(0, 0, 0)
 
-SWEP.RecoilOffset = Vector(0, -4, 0)
+SWEP.RecoilOffset = Vector(0, -1, 0)
 SWEP.RecoilAngle = Angle(-10, 0, 0)
 
 SWEP.HolsterOffset = Vector(-25, 0, -10)
