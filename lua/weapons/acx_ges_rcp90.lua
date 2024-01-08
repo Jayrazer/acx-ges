@@ -36,8 +36,8 @@ SWEP.AutoAimSpeedSightsMult = 1
 
 -- Multiplier in akimbo
 SWEP.CanAkimbo = true
-SWEP.SpreadAkimboMult = 1.75
-SWEP.RecoilAkimboMult = 1.5
+SWEP.SpreadAkimboMult = 2
+SWEP.RecoilAkimboMult = 2
 SWEP.AutoAimSpeedAkimboMult = 1
 
 SWEP.Firemode = "auto"
