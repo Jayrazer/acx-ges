@@ -35,7 +35,7 @@ SWEP.RecoilSightsMult = 1
 SWEP.AutoAimSpeedSightsMult = 1
 
 -- Multiplier in akimbo
-SWEP.CanAkimbo = true
+SWEP.CanAkimbo = false
 SWEP.SpreadAkimboMult = 1.5
 SWEP.RecoilAkimboMult = 1
 SWEP.AutoAimSpeedAkimboMult = 1
@@ -49,7 +49,7 @@ SWEP.Firemode = "semi"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.75
+SWEP.ReloadTime = 0.8
 SWEP.ReloadDifficultyMult = 1
 SWEP.ShotgunReload = false
 
