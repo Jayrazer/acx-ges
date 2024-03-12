@@ -91,7 +91,7 @@ SWEP.HolsterTime = 0.2
 
 SWEP.MuzzleTexture = "effects/gunshipmuzzle"
 
-SWEP.MuzzleOffset = Vector(0, -12, 1)
+SWEP.MuzzleOffset = Vector(0, -24, 0)
 SWEP.MuzzleAngle = Angle(0, 0, 0)
 SWEP.MuzzleScale = 1
 
