@@ -7,7 +7,7 @@ SWEP.PrintName = "Moonraker Laser" -- the freaking lazar gun
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 3
 SWEP.DrawWeaponInfoBox = true
-SWEP.Description = "No recoil and high damage. Consumes a lot of ammo."
+SWEP.Description = "Low recoil and high damage. Consumes a lot of ammo."
 SWEP.TypeName = "Laser Gun"
 
 SWEP.Model = "models/weapons/acx_ges/c_moonraker.mdl"
@@ -21,14 +21,14 @@ SWEP.ModelAngleWorld = Angle(0, 180, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 23
+SWEP.Damage = 25
 SWEP.Num = 1
-SWEP.HeadshotMultiplier = 2
+SWEP.HeadshotMultiplier = 1
 SWEP.AmmoPerShot = 5
 
 SWEP.Spread = 0.03
-SWEP.Recoil = 1
-SWEP.RateOfFire = 250
+SWEP.Recoil = 0.25
+SWEP.RateOfFire = 300
 
 -- Multiplier in sights
 SWEP.SpreadSightsMult = 0.8
@@ -41,7 +41,7 @@ SWEP.SpreadAkimboMult = 1.75
 SWEP.RecoilAkimboMult = 1
 SWEP.AutoAimSpeedAkimboMult = 1
 
-SWEP.Firemode = "auto"
+SWEP.Firemode = "semi"
 -- auto
 -- semi
 -- semi_falling
@@ -59,11 +59,10 @@ SWEP.AutoAimRange = 800
 SWEP.AutoAimSpeed = 40
 
 SWEP.Primary.Ammo = "ar2"
-SWEP.Primary.ClipSize = 100
-SWEP.Primary.DefaultClip = SWEP.Primary.ClipSize * 3
-SWEP.FastReloadBonus = 20
+SWEP.Primary.ClipSize = -1
+SWEP.Primary.DefaultClip = 250
 
-SWEP.Magnification = 1.25
+SWEP.Magnification = 1.5
 
 SWEP.HasScope = false
 SWEP.ScopeOverlay = nil
@@ -71,7 +70,7 @@ SWEP.ScopeOverlay = nil
 SWEP.AimOffset = Vector(0, 0, 0)
 SWEP.AimAngle = Angle(0, 0, 0)
 
-SWEP.RecoilOffset = Vector(0, -4, 0)
+SWEP.RecoilOffset = Vector(0, -1, 0)
 SWEP.RecoilAngle = Angle(0, 0, 0)
 
 SWEP.HolsterOffset = Vector(-25, 0, -10)
@@ -94,7 +93,7 @@ SWEP.MuzzleTexture = "effects/gunshipmuzzle"
 
 SWEP.MuzzleOffset = Vector(0, -12, 1)
 SWEP.MuzzleAngle = Angle(0, 0, 0)
-SWEP.MuzzleScale = 1.5
+SWEP.MuzzleScale = 1
 
 ----------------- Sounds
 
