@@ -21,9 +21,9 @@ SWEP.ModelAngleWorld = Angle(90, 0, 90)
 
 ----------------- Stats
 
-SWEP.Damage = 200
+SWEP.Damage = 1000
 SWEP.Num = 1
-SWEP.HeadshotMultiplier = 1
+SWEP.HeadshotMultiplier = 2
 
 SWEP.Spread = 0.01
 SWEP.Recoil = 2
