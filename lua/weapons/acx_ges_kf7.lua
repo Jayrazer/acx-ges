@@ -49,7 +49,7 @@ SWEP.Firemode = "auto"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.75
+SWEP.ReloadTime = 0.65
 SWEP.ReloadDifficultyMult = 1
 SWEP.ShotgunReload = false
 

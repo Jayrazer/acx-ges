@@ -49,7 +49,7 @@ SWEP.Firemode = "pump"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.3
+SWEP.ReloadTime = 0.25
 SWEP.ReloadDifficultyMult = 0.4
 SWEP.ShotgunReload = true
 

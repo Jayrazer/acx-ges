@@ -25,7 +25,7 @@ SWEP.Damage = 18
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1.5
 
-SWEP.Spread = 0.03
+SWEP.Spread = 0.025
 SWEP.Recoil = 0.75
 SWEP.RateOfFire = 750
 
@@ -36,7 +36,7 @@ SWEP.AutoAimSpeedSightsMult = 1
 
 -- Multiplier in akimbo
 SWEP.CanAkimbo = true
-SWEP.SpreadAkimboMult = 1.55
+SWEP.SpreadAkimboMult = 1.5
 SWEP.RecoilAkimboMult = 1.2
 SWEP.AutoAimSpeedAkimboMult = 1
 
@@ -49,7 +49,7 @@ SWEP.Firemode = "auto"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.8
+SWEP.ReloadTime = 0.5
 SWEP.ReloadDifficultyMult = 1
 SWEP.ShotgunReload = false
 

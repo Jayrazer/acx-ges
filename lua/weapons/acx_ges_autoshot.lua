@@ -25,7 +25,7 @@ SWEP.Damage = 11
 SWEP.Num = 8
 SWEP.HeadshotMultiplier = 1
 
-SWEP.Spread = 0.1
+SWEP.Spread = 0.075
 SWEP.Recoil = 3
 SWEP.RateOfFire = 150
 
@@ -49,7 +49,7 @@ SWEP.Firemode = "auto"
 -- bolt
 -- burst_3, burst_2
 
-SWEP.ReloadTime = 0.35
+SWEP.ReloadTime = 0.3
 SWEP.ReloadDifficultyMult = 0.4
 SWEP.ShotgunReload = true
 SWEP.AutoAimSeek = "body"

@@ -71,8 +71,8 @@ SWEP.ScopeOverlay = nil
 SWEP.AimOffset = Vector(0, 0, 0)
 SWEP.AimAngle = Angle(0, 0, 0)
 
-SWEP.RecoilOffset = Vector(0, -4, 0)
-SWEP.RecoilAngle = Angle(-20, 0, 0)
+SWEP.RecoilOffset = Vector(0, -2, 0)
+SWEP.RecoilAngle = Angle(-12, 0, 0)
 
 SWEP.HolsterOffset = Vector(-25, 0, -10)
 SWEP.HolsterAngle = Angle(90, 0, 0)
