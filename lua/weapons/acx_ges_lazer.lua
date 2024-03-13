@@ -7,7 +7,7 @@ SWEP.PrintName = "Moonraker Laser" -- the freaking lazar gun
 SWEP.Category = "ACXION - Goldeneye: Source"
 SWEP.Slot = 3
 SWEP.DrawWeaponInfoBox = true
-SWEP.Description = "Low recoil and high damage. Consumes a lot of ammo."
+SWEP.Description = "Low recoil and infinite ammo."
 SWEP.TypeName = "Laser Gun"
 
 SWEP.Model = "models/weapons/acx_ges/c_moonraker.mdl"
@@ -21,14 +21,14 @@ SWEP.ModelAngleWorld = Angle(0, 180, 0)
 
 ----------------- Stats
 
-SWEP.Damage = 25
+SWEP.Damage = 15
 SWEP.Num = 1
 SWEP.HeadshotMultiplier = 1
-SWEP.AmmoPerShot = 5
+SWEP.AmmoPerShot = 0
 
-SWEP.Spread = 0.015
+SWEP.Spread = 0.02
 SWEP.Recoil = 0.15
-SWEP.RateOfFire = 300
+SWEP.RateOfFire = 250
 
 -- Multiplier in sights
 SWEP.SpreadSightsMult = 0.8
@@ -41,7 +41,7 @@ SWEP.SpreadAkimboMult = 1.25
 SWEP.RecoilAkimboMult = 1
 SWEP.AutoAimSpeedAkimboMult = 1
 
-SWEP.Firemode = "semi"
+SWEP.Firemode = "auto"
 -- auto
 -- semi
 -- semi_falling
@@ -58,9 +58,11 @@ SWEP.AutoAimAngle = math.cos(math.rad(60))
 SWEP.AutoAimRange = 800
 SWEP.AutoAimSpeed = 40
 
-SWEP.Primary.Ammo = "ar2"
-SWEP.Primary.ClipSize = -1
-SWEP.Primary.DefaultClip = 250
+SWEP.Primary.Ammo = "pewpewlazor"
+SWEP.Primary.ClipSize = 1
+SWEP.Primary.DefaultClip = 1
+SWEP.Secondary.ClipSize = 1
+SWEP.Secondary.DefaultClip = 1
 
 SWEP.Magnification = 1.5
 
